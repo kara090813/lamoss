@@ -1,0 +1,191 @@
+[
+  {
+    "info": {
+      "id": "general",
+      "titleKo": "일반 정책",
+      "titleEn": "General Policy",
+      "dateKo": "2025년 1월 14일",
+      "dateEn": "January 14, 2025"
+    },
+    "itemsKo": [
+      {
+        "title": "개요",
+        "icon": "📋",
+        "text": "본 개인정보 처리방침은 **Lamoss Tech**(이하 \"서비스 제공자\")가 제공하는 웹사이트(이하 \"웹사이트\")에 적용됩니다. 이 서비스는 \"있는 그대로\" 사용하도록 제공됩니다.\n\n웹사이트는 사용자의 개인정보를 소중히 여기며 안전하게 보호합니다."
+      },
+      {
+        "title": "정보 수집 및 사용",
+        "icon": "📊",
+        "text": "웹사이트는 방문 시 다음과 같은 정보를 수집할 수 있습니다:\n\n- 기기의 IP 주소\n- 방문한 페이지, 방문 시간 및 날짜, 해당 페이지에서 보낸 시간\n- 브라우저 정보\n- 접속 환경 정보\n\n수집된 정보는 서비스 개선 및 사용자 경험 향상을 위해 사용됩니다."
+      },
+      {
+        "title": "제3자 접근",
+        "icon": "🔒",
+        "text": "개선된 서비스 제공을 위해 **익명화된 집계 데이터**가 외부 서비스로 전송될 수 있습니다.\n\n다음과 같은 제3자 서비스를 사용합니다:\n\n- **Google Analytics** – 웹사이트 사용 통계 분석\n- **기타 분석 도구** – 성능 모니터링 및 개선\n\n개인식별정보는 제3자에게 제공되지 않습니다."
+      },
+      {
+        "title": "데이터 보안",
+        "icon": "🔐",
+        "text": "수집된 정보는 **적절한 보안 조치**를 통해 보호됩니다.\n\n### 보안 조치\n- 데이터 암호화 저장\n- 접근 권한 관리\n- 정기적인 보안 점검\n- HTTPS 통신 암호화\n\n그러나 인터넷을 통한 전송 방법이나 전자 저장 방법이 **100% 안전하다고 보장할 수는 없습니다**."
+      },
+      {
+        "title": "연락처",
+        "icon": "📞",
+        "text": "개인정보 처리방침에 대한 문의사항이 있으시면 아래로 연락해 주세요:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **24시간 내**에 답변드리겠습니다."
+      }
+    ],
+    "itemsEn": [
+      {
+        "title": "Overview",
+        "icon": "📋",
+        "text": "This Privacy Policy applies to the website (hereinafter \"Website\") provided by **Lamoss Tech** (hereinafter \"Service Provider\"). This service is provided \"as is\" for use.\n\nThe website values and safely protects your personal information."
+      },
+      {
+        "title": "Information Collection and Use",
+        "icon": "📊",
+        "text": "The website collects information when you visit. This information may include:\n\n- Device IP address\n- Pages visited, time and date of visit, time spent on pages\n- Browser information\n- Access environment information\n\nCollected information is used to improve services and enhance user experience."
+      },
+      {
+        "title": "Third Party Access",
+        "icon": "🔒",
+        "text": "Anonymized aggregate data is transmitted to external services to provide improved services.\n\nWe use the following third-party services:\n\n- **Google Analytics** – Website usage statistics analysis\n- **Other analytics tools** – Performance monitoring and improvement\n\nPersonally identifiable information is not provided to third parties."
+      },
+      {
+        "title": "Data Security",
+        "icon": "🔐",
+        "text": "Collected information is protected through appropriate security measures.\n\n### Security Measures\n- Encrypted data storage\n- Access control management\n- Regular security inspections\n- HTTPS communication encryption\n\nHowever, we cannot guarantee that transmission methods over the internet or electronic storage methods are 100% secure."
+      },
+      {
+        "title": "Contact",
+        "icon": "📞",
+        "text": "If you have any questions about our privacy policy, please contact us at:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries within 24 hours."
+      }
+    ]
+  },
+  {
+    "info": {
+      "id": "recipe",
+      "titleKo": "냉장고 털이",
+      "titleEn": "Fridge Cleaner",
+      "dateKo": "2025년 1월 14일",
+      "dateEn": "January 14, 2025"
+    },
+    "itemsKo": [
+      {
+        "title": "개요",
+        "icon": "📋",
+        "text": "본 개인정보 처리방침은 **Lamoss Tech**(이하 \"서비스 제공자\")가 제공하는 광고 지원 서비스인 **냉장고 털이** 앱(이하 \"애플리케이션\")에 적용됩니다. 이 서비스는 \"있는 그대로\" 사용하도록 제공됩니다.\n\n애플리케이션은 사용자의 개인정보를 소중히 여기며 안전하게 보호합니다."
+      },
+      {
+        "title": "정보 수집 및 사용",
+        "icon": "📊",
+        "text": "애플리케이션은 다운로드 및 사용 시 다음과 같은 정보를 수집할 수 있습니다:\n\n- 기기의 IP 주소\n- 방문한 페이지, 방문 시간 및 날짜, 해당 페이지에서 보낸 시간\n- 애플리케이션 사용 시간\n- 모바일 기기에서 사용하는 운영 체제\n\n수집된 정보는 서비스 개선 및 사용자 경험 향상을 위해 사용됩니다."
+      },
+      {
+        "title": "제3자 접근",
+        "icon": "🔒",
+        "text": "개선된 서비스 제공을 위해 **익명화된 집계 데이터**가 외부 서비스로 전송될 수 있습니다.\n\n다음과 같은 제3자 서비스를 사용합니다:\n\n- **Google Play Services** – 앱 서비스 및 계정 통합\n- **AdMob** – 광고 제공 및 최적화\n- **Firebase Analytics** – 앱 사용 통계 및 성능 분석\n\n개인식별정보는 제3자에게 제공되지 않습니다."
+      },
+      {
+        "title": "데이터 보안",
+        "icon": "🔐",
+        "text": "사용자 정보는 **상업적으로 허용되는 보안 수단**을 통해 보호됩니다.\n\n### 보안 조치\n- 데이터 암호화 저장\n- 접근 권한 제어\n- 정기적인 보안 점검\n- 안전한 네트워크 통신(HTTPS)\n\n그러나 인터넷을 통한 전송이나 전자 저장 방식은 **100% 안전성을 보장할 수는 없습니다**."
+      },
+      {
+        "title": "연락처",
+        "icon": "📞",
+        "text": "개인정보 처리방침에 대한 문의사항이나 제안이 있으시면 아래로 연락해 주세요:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **최대한 신속히** 답변드리겠습니다."
+      }
+    ],
+    "itemsEn": [
+      {
+        "title": "Overview",
+        "icon": "📋",
+        "text": "This Privacy Policy applies to the ad-supported service **Fridge Cleaner** app (hereinafter \"Application\") provided by **Lamoss Tech** (hereinafter \"Service Provider\"). This service is provided \"as is\" for use.\n\nThe application values and safely protects your personal information."
+      },
+      {
+        "title": "Information Collection and Use",
+        "icon": "📊",
+        "text": "The application may collect the following information when downloaded and used:\n\n- Device IP address\n- Pages visited, time and date of visit, time spent on pages\n- Application usage time\n- Operating system used on mobile devices\n\nCollected information is used to improve services and enhance user experience."
+      },
+      {
+        "title": "Third Party Access",
+        "icon": "🔒",
+        "text": "Anonymized aggregate data may be transmitted to external services to provide improved services.\n\nWe use the following third-party services:\n\n- **Google Play Services** – App services and account integration\n- **AdMob** – Ad serving and optimization\n- **Firebase Analytics** – App usage statistics and performance analysis\n\nPersonally identifiable information is not provided to third parties."
+      },
+      {
+        "title": "Data Security",
+        "icon": "🔐",
+        "text": "User information is protected through commercially acceptable security measures.\n\n### Security Measures\n- Encrypted data storage\n- Access control\n- Regular security inspections\n- Secure network communication (HTTPS)\n\nHowever, transmission over the internet or electronic storage methods cannot guarantee 100% security."
+      },
+      {
+        "title": "Contact",
+        "icon": "📞",
+        "text": "If you have any questions or suggestions about our privacy policy, please contact us:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries as quickly as possible."
+      }
+    ]
+  },
+  {
+    "info": {
+      "id": "trendly",
+      "titleKo": "트렌들리",
+      "titleEn": "Trendly", 
+      "dateKo": "2025년 1월 14일",
+      "dateEn": "January 14, 2025"
+    },
+    "itemsKo": [
+      {
+        "title": "개요",
+        "icon": "📋",
+        "text": "본 개인정보 처리방침은 **Lamoss Tech**(이하 \"서비스 제공자\")가 제공하는 광고 지원 서비스인 **트렌들리** 앱(이하 \"애플리케이션\")에 적용됩니다. 이 서비스는 \"있는 그대로\" 사용하도록 제공됩니다.\n\n애플리케이션은 사용자의 개인정보를 소중히 여기며 안전하게 보호합니다."
+      },
+      {
+        "title": "정보 수집 및 사용",
+        "icon": "📊",
+        "text": "애플리케이션은 다운로드 및 사용 시 다음과 같은 정보를 수집할 수 있습니다:\n\n- 기기의 IP 주소\n- 방문한 페이지, 방문 시간 및 날짜, 해당 페이지에서 보낸 시간\n- 애플리케이션 사용 시간\n- 모바일 기기에서 사용하는 운영 체제\n\n수집된 정보는 서비스 개선 및 사용자 경험 향상을 위해 사용됩니다."
+      },
+      {
+        "title": "제3자 접근",
+        "icon": "🔒",
+        "text": "개선된 서비스 제공을 위해 **익명화된 집계 데이터**가 외부 서비스로 전송될 수 있습니다.\n\n다음과 같은 제3자 서비스를 사용합니다:\n\n- **Google Play Services** – 앱 서비스 및 계정 통합\n- **AdMob** – 광고 제공 및 최적화\n- **Firebase Analytics** – 앱 사용 통계 및 성능 분석\n\n개인식별정보는 제3자에게 제공되지 않습니다."
+      },
+      {
+        "title": "데이터 보안",
+        "icon": "🔐",
+        "text": "사용자 정보는 **상업적으로 허용되는 보안 수단**을 통해 보호됩니다.\n\n### 보안 조치\n- 데이터 암호화 저장\n- 접근 권한 제어\n- 정기적인 보안 점검\n- 안전한 네트워크 통신(HTTPS)\n\n그러나 인터넷을 통한 전송이나 전자 저장 방식은 **100% 안전성을 보장할 수는 없습니다**."
+      },
+      {
+        "title": "연락처",
+        "icon": "📞",
+        "text": "개인정보 처리방침에 대한 문의사항이나 제안이 있으시면 아래로 연락해 주세요:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **최대한 신속히** 답변드리겠습니다."
+      }
+    ],
+    "itemsEn": [
+      {
+        "title": "Overview",
+        "icon": "📋",
+        "text": "This Privacy Policy applies to the ad-supported service **Trendly** app (hereinafter \"Application\") provided by **Lamoss Tech** (hereinafter \"Service Provider\"). This service is provided \"as is\" for use.\n\nThe application values and safely protects your personal information."
+      },
+      {
+        "title": "Information Collection and Use",
+        "icon": "📊",
+        "text": "The application may collect the following information when downloaded and used:\n\n- Device IP address\n- Pages visited, time and date of visit, time spent on pages\n- Application usage time\n- Operating system used on mobile devices\n\nCollected information is used to improve services and enhance user experience."
+      },
+      {
+        "title": "Third Party Access",
+        "icon": "🔒",
+        "text": "Anonymized aggregate data may be transmitted to external services to provide improved services.\n\nWe use the following third-party services:\n\n- **Google Play Services** – App services and account integration\n- **AdMob** – Ad serving and optimization\n- **Firebase Analytics** – App usage statistics and performance analysis\n\nPersonally identifiable information is not provided to third parties."
+      },
+      {
+        "title": "Data Security",
+        "icon": "🔐",
+        "text": "User information is protected through commercially acceptable security measures.\n\n### Security Measures\n- Encrypted data storage\n- Access control\n- Regular security inspections\n- Secure network communication (HTTPS)\n\nHowever, transmission over the internet or electronic storage methods cannot guarantee 100% security."
+      },
+      {
+        "title": "Contact",
+        "icon": "📞",
+        "text": "If you have any questions or suggestions about our privacy policy, please contact us:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries as quickly as possible."
+      }
+    ]
+  }
+]

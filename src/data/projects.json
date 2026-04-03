@@ -1,0 +1,53 @@
+[
+  {
+    "id": "recipe",
+    "projectCode": "recipe",
+    "projectName": "냉장고 털이",
+    "status": "출시",
+    "shortDescription": "AI 기반 개인 맞춤형 레시피 추천 앱",
+    "detailedDescription": "# 냉장고 털이 - AI 스마트 레시피 앱\n\n## 개요\n\n냉장고 털이는 집에 있는 식재료를 효율적으로 관리하고, 보유한 재료로 만들 수 있는 최적의 레시피를 추천해주는 똑똑한 요리 도우미 앱입니다. 재료 낭비를 줄이고, 개인 취향과 요리 히스토리에 맞춘 추천으로 매일의 요리를 즐겁게 만들어줍니다.\n\n## 주요 기능\n\n### 📷 식재료 관리\n- 카메라 촬영·영수증 스캔으로 간편 등록\n- 자동 분류와 유효기간 알림\n\n### 🍳 맞춤형 레시피 추천\n- 보유 재료 매칭률 기반 추천\n- 아침·점심·저녁 등 시간대별 맞춤 제안\n- 카드 스와이프 방식의 직관적 탐색\n\n### 👨‍🍳 요리 도우미\n- 단계별 요리 가이드 & 유튜브 영상 연동\n- 요리 완료 시 재료 차감 & 히스토리 저장\n\n### 🏆 재미 요소\n- 뱃지·퀘스트·레벨업 시스템\n- 나만의 요리 기록 및 통계 확인\n\n## 기술적 특징\n\n- Flutter 기반 iOS/Android 지원\n- Firebase 연동 실시간 동기화\n- AI 이미지 인식 & 레시피 추천 알고리즘",
+    "bannerImage": "/images/projects/recipe/banner.png",
+    "screenshots": [
+      "/images/projects/recipe/1.jpg",
+      "/images/projects/recipe/2.jpg",
+      "/images/projects/recipe/3.jpg",
+      "/images/projects/recipe/4.jpg",
+      "/images/projects/recipe/5.jpg",
+      "/images/projects/recipe/6.jpg"
+    ],
+    "releaseDate": null,
+    "tags":["App","IOS","Andorid","라이프스타일","요리"],
+    "version": "0.8.0",
+    "lastUpdate": "2024-09-05",
+    "downloadCount": 0,
+    "rating": 0.0,
+    "playstoreLink": "https://play.google.com/store/apps/details?id=net.lamoss.recipe_inventory",
+    "appstoreLink": "https://apps.apple.com/us/app/%EB%83%89%EC%9E%A5%EA%B3%A0-%ED%84%B8%EC%9D%B4/id6740774474"
+  },
+  {
+    "id": "trendly",
+    "projectCode": "trendly",
+    "projectName": "트렌들리",
+    "status": "출시",
+    "shortDescription": "돌아온 실시간 검색어\n3줄요약으로 더 강력하게",
+    "detailedDescription": "# 트렌들리 - 실시간 트렌드 분석 & 토론 플랫폼\n\n## 개요\n\n트렌들리는 뉴스, SNS, 커뮤니티 데이터를 실시간으로 분석해 가장 핫한 트렌드를 제공하고, 누구나 자유롭게 토론하며 다양한 시각을 나눌 수 있는 플랫폼입니다. 익명 토론과 감정 분석을 통해 사회 이슈를 더 깊고 재미있게 이해할 수 있습니다.\n\n## 주요 기능\n\n### 📊 실시간 트렌드\n- AI 기반 뉴스·SNS 데이터 분석\n- 실시간 Top 10 키워드 제공\n- 3줄 요약부터 상세 분석까지 단계별 정보 제공\n\n### 💬 토론 시스템\n- 트렌드별 24시간 토론방 자동 생성\n- 익명 댓글 & 대댓글 지원\n- 최신순/인기순 정렬, 좋아요·싫어요 반응\n\n### 😊 감정 분석\n- 긍정/중립/부정 감정 투표\n- 토론방별 여론 통계 및 변화 추이\n- AI 요약으로 한눈에 흐름 파악\n\n### 🏠 마이페이지\n- 참여한 토론 기록 & 활동 통계\n- 댓글 히스토리와 좋아요/싫어요 관리\n- 개인 프로필 및 활동 기간 표시\n\n### 🎨 사용자 경험\n- 다크/라이트 테마 지원\n- 직관적인 뉴모피즘 UI & 부드러운 애니메이션\n- 실시간 카운트다운으로 토론 종료 안내\n\n## 기술적 특징\n\n- Flutter 기반 iOS/Android 지원\n- Django REST API + PostgreSQL 백엔드\n- AI 기반 트렌드 분석 & 여론 요약\n- 완전 익명 시스템 & 데이터 보안",
+    "bannerImage": "/images/projects/trendly/banner.jpg",
+    "screenshots": [
+      "/images/projects/trendly/screenshot1.jpg",
+      "/images/projects/trendly/screenshot2.jpg",
+      "/images/projects/trendly/screenshot3.jpg",
+      "/images/projects/trendly/screenshot4.jpg",
+      "/images/projects/trendly/screenshot5.jpg",
+      "/images/projects/trendly/screenshot6.jpg",
+      "/images/projects/trendly/screenshot7.jpg"
+    ],
+    "releaseDate": "2024-03-15",
+    "tags":["App","IOS","Andorid","커뮤니티"],
+    "version": "2.1.0",
+    "lastUpdate": "2024-08-20",
+    "downloadCount": 12580,
+    "rating": 4.7,
+    "playstoreLink": "https://play.google.com/store/apps/details?id=net.lamoss.trendly",
+    "appstoreLink": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A0%8C%EB%93%A4%EB%A6%AC/id6752252383"
+  }
+]
