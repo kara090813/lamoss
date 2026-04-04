@@ -49,5 +49,23 @@
     "rating": 4.7,
     "playstoreLink": "https://play.google.com/store/apps/details?id=net.lamoss.trendly",
     "appstoreLink": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A0%8C%EB%93%A4%EB%A6%AC/id6752252383"
+  },
+  {
+    "id": "tukmark",
+    "projectCode": "tukmark",
+    "projectName": "툭마크",
+    "status": "출시",
+    "shortDescription": "링크 공유 한 번이면 끝\nAI가 알아서 분류하는 북마크",
+    "detailedDescription": "# 툭마크 - AI 자동분류 콘텐츠 북마크\n\n## 개요\n\n툭마크는 다른 앱에서 링크를 공유하면 AI가 자동으로 카테고리를 분류하고 저장해주는 북마크 서비스입니다. 모바일 앱, 웹, 크롬 확장프로그램을 통해 어디서든 콘텐츠를 저장하고 관리할 수 있습니다.\n\n## 주요 기능\n\n### 🔗 공유하기만 하면 자동 저장 + 분류\n- 인스타그램, 유튜브, 트위터 등 40개+ 플랫폼 지원\n- LLM 기반 AI가 사용자 카테고리에 맞게 자동 분류\n- 수동 분류도 가능하며, AI가 새 카테고리 추천\n\n### 📂 유연한 분류 체계\n- **일반 모드**: 평면 카테고리 구조로 심플하게\n- **상세 분류 모드**: 대분류 > 소분류 계층 구조로 세밀하게\n- 카테고리 추가·편집·삭제·순서 변경 (드래그)\n\n### 🔍 빠른 탐색\n- 카테고리 휠 셀렉터로 빠른 전환\n- 초성 검색 지원 (제목, 본문, URL 실시간 검색)\n- 최신순 / 가나다순 / 자주 본 순 정렬\n- 즐겨찾기로 중요 콘텐츠 상단 고정\n\n### ☁️ 클라우드 동기화\n- Google/Kakao/Apple 계정 연결 시 자동 백업\n- 앱·웹·확장프로그램 간 실시간 동기화\n- 오프라인 우선: 네트워크 없이도 완벽 동작\n\n### 🌐 멀티 플랫폼\n- **모바일 앱**: iOS/Android (Flutter)\n- **웹**: tukmark.com (Next.js)\n- **크롬 확장프로그램**: 브라우저에서 한 클릭 저장\n\n## 기술적 특징\n\n- Flutter 기반 iOS/Android 네이티브 앱\n- Next.js 웹 대시보드 + Chrome Extension (Manifest v3)\n- Supabase (Auth + PostgreSQL + Edge Functions) 백엔드\n- Groq / Gemini LLM 기반 AI 자동 분류\n- 버전 기반 델타 동기화 + 핑거프린트 검증",
+    "bannerImage": "",
+    "screenshots": [],
+    "releaseDate": null,
+    "tags": ["App", "Web", "Chrome Extension", "AI", "생산성"],
+    "version": "1.0.0",
+    "lastUpdate": "2026-04-04",
+    "downloadCount": 0,
+    "rating": 0.0,
+    "playstoreLink": "",
+    "appstoreLink": ""
   }
 ]

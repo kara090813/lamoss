@@ -57,13 +57,19 @@ export default function ProjectDetailPage() {
         {/* Banner */}
         <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
           <div className="page-enter relative h-48 sm:h-64 md:h-80 rounded-xl sm:rounded-2xl overflow-hidden glow">
-            <Image
-              src={project.bannerImage}
-              alt={project.projectName}
-              fill
-              className="object-cover"
-              priority
-            />
+            {project.bannerImage ? (
+              <Image
+                src={project.bannerImage}
+                alt={project.projectName}
+                fill
+                className="object-cover"
+                priority
+              />
+            ) : (
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-surface to-accent/10 flex items-center justify-center">
+                <span className="text-5xl sm:text-6xl font-bold gradient-text">{project.projectName}</span>
+              </div>
+            )}
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
           </div>
         </section>

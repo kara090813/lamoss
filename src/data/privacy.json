@@ -129,7 +129,7 @@
     "info": {
       "id": "trendly",
       "titleKo": "트렌들리",
-      "titleEn": "Trendly", 
+      "titleEn": "Trendly",
       "dateKo": "2025년 1월 14일",
       "dateEn": "January 14, 2025"
     },
@@ -185,6 +185,325 @@
         "title": "Contact",
         "icon": "📞",
         "text": "If you have any questions or suggestions about our privacy policy, please contact us:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries as quickly as possible."
+      }
+    ]
+  },
+  {
+    "info": {
+      "id": "tukmark-app",
+      "titleKo": "툭마크 (앱)",
+      "titleEn": "tukmark (App)",
+      "dateKo": "2026년 4월 4일",
+      "dateEn": "April 4, 2026"
+    },
+    "itemsKo": [
+      {
+        "title": "개요",
+        "icon": "📋",
+        "text": "본 개인정보 처리방침은 **Lamoss Tech**(이하 \"회사\")가 제공하는 **툭마크** 모바일 애플리케이션(iOS/Android, 이하 \"앱\")에 적용됩니다.\n\n회사는 「개인정보 보호법」 등 관련 법령을 준수하며, 이용자의 개인정보를 안전하게 관리하기 위하여 최선을 다합니다. 본 방침은 이용자가 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보 보호를 위해 어떤 조치가 취해지고 있는지 안내합니다."
+      },
+      {
+        "title": "수집하는 개인정보",
+        "icon": "📊",
+        "text": "앱은 서비스 제공을 위해 다음과 같은 개인정보를 수집합니다.\n\n### 회원가입 시 (소셜 로그인)\n- **필수**: 이메일 주소, 이름(닉네임), 고유 식별자(OAuth ID)\n- **수집 방법**: Google, Kakao, Apple 소셜 로그인을 통한 자동 수집\n- 비회원(익명) 이용 시에는 개인정보를 수집하지 않습니다.\n\n### 서비스 이용 과정에서 자동 수집\n- 기기 정보 (OS 종류 및 버전, 기기 모델)\n- 앱 사용 기록 (접속 일시, 기능 사용 내역)\n- IP 주소\n\n### 이용자가 직접 입력하는 정보\n- 북마크 데이터 (URL, 제목, 메모, 태그)\n- 카테고리 설정 정보\n- 즐겨찾기 및 콘텐츠 관리 정보\n\n### 결제 시 (Pro 구독)\n- 인앱결제 영수증 정보 (Apple/Google 결제 검증용)\n- 회사는 카드번호 등 결제 수단 정보를 직접 수집하지 않으며, Apple/Google 결제 시스템을 통해 처리됩니다."
+      },
+      {
+        "title": "개인정보의 처리 목적",
+        "icon": "🎯",
+        "text": "수집된 개인정보는 다음의 목적으로만 처리됩니다.\n\n### 서비스 제공 및 운영\n- 회원 식별 및 인증\n- 북마크 저장, 분류, 동기화 기능 제공\n- AI 자동 분류 서비스 (콘텐츠 메타데이터를 LLM에 전달하여 카테고리 분류)\n- 클라우드 동기화 (다기기 간 데이터 연동)\n\n### 서비스 개선\n- 앱 사용 패턴 분석 및 기능 개선\n- AI 분류 정확도 향상을 위한 학습 데이터 활용\n- 오류 진단 및 서비스 안정성 향상\n\n### 고객 지원\n- 이용자 문의 대응 및 불만 처리"
+      },
+      {
+        "title": "개인정보의 보유 및 이용 기간",
+        "icon": "⏱️",
+        "text": "회사는 개인정보 수집 및 이용 목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.\n\n| 항목 | 보유 기간 | 사유 |\n|------|----------|------|\n| 회원 계정 정보 | 회원 탈퇴 시까지 | 서비스 제공 |\n| 북마크 데이터 | 삭제 요청 시 또는 탈퇴 시 | 서비스 제공 |\n| AI 학습 데이터 | 수집일로부터 1년 | 분류 정확도 개선 |\n| 접속 로그 | 3개월 | 통신비밀보호법 |\n| 결제 기록 | 5년 | 전자상거래법 |\n\n이용자가 계정을 삭제하면 클라우드에 저장된 모든 북마크, 카테고리, 개인정보가 즉시 파기됩니다."
+      },
+      {
+        "title": "개인정보의 제3자 제공 및 처리 위탁",
+        "icon": "🔒",
+        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 인증, 데이터 저장, 클라우드 동기화 | 계정 정보, 북마크 데이터 |\n| **Groq** (미국) | AI 콘텐츠 분류 | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google Gemini** (미국) | AI 콘텐츠 분류 (폴백) | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google** | 소셜 로그인, 인앱결제 검증 | OAuth 인증 정보, 결제 영수증 |\n| **Kakao** | 소셜 로그인 | OAuth 인증 정보 |\n| **Apple** | 소셜 로그인, 인앱결제 검증 | OAuth 인증 정보, 결제 영수증 |\n\nAI 분류 시 전달되는 정보는 **콘텐츠의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
+      },
+      {
+        "title": "정보주체의 권리와 행사 방법",
+        "icon": "⚖️",
+        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 개인정보 수집·이용 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **앱 내**: 설정 > 계정 관리에서 로그아웃 또는 계정 삭제\n- **이메일**: kara090813@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다.\n\n### 데이터 관리\n- 로컬 데이터(SQLite)는 앱 삭제 시 자동 파기됩니다.\n- 클라우드 데이터는 계정 삭제 시 즉시 파기됩니다.\n- 비회원 이용 시 모든 데이터는 기기 내에만 저장되며 서버에 전송되지 않습니다."
+      },
+      {
+        "title": "개인정보의 파기",
+        "icon": "🗑️",
+        "text": "회사는 개인정보 보유 기간의 경과, 처리 목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체 없이 해당 개인정보를 파기합니다.\n\n### 파기 절차\n- 이용자의 개인정보는 목적 달성 후 별도의 DB로 옮겨져 내부 방침 및 관련 법령에 따라 일정 기간 저장된 후 파기됩니다.\n- 별도 DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 다른 목적으로 이용되지 않습니다.\n\n### 파기 방법\n- 전자적 파일: 복구 및 재생이 불가능한 방법으로 영구 삭제\n- 종이 문서: 분쇄기로 분쇄하거나 소각\n\n### 소프트 삭제 정책\n- 북마크 삭제 시 서버에서 소프트 삭제(deleted_at 기록) 처리되며, **30일 후 완전 파기**됩니다.\n- 계정 삭제 시 관련 데이터가 **즉시 완전 파기**됩니다."
+      },
+      {
+        "title": "개인정보의 안전성 확보 조치",
+        "icon": "🔐",
+        "text": "회사는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.\n\n### 기술적 조치\n- 모든 데이터 전송 시 **HTTPS(TLS) 암호화** 적용\n- Supabase **Row Level Security(RLS)** 정책으로 본인 데이터만 접근 가능\n- 인증 토큰 기반 접근 제어 (JWT)\n- 비밀번호 및 민감 정보는 서버에 저장하지 않음 (OAuth 방식)\n- 오프라인 데이터는 기기 내 SQLite에 저장 (기기 암호화 의존)\n\n### 관리적 조치\n- 개인정보 접근 권한을 최소한의 인원으로 제한\n- 정기적인 보안 점검 및 취약점 진단\n- 개인정보 보호 교육 실시\n\n그러나 인터넷을 통한 전송이나 전자 저장 방식은 **100% 안전성을 보장할 수는 없습니다**."
+      },
+      {
+        "title": "개인정보 보호책임자 및 연락처",
+        "icon": "📞",
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n기타 개인정보 침해에 대한 신고나 상담이 필요한 경우 아래 기관에 문의하실 수 있습니다.\n\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 4일**부터 적용됩니다. 변경 사항이 있을 경우 앱 공지사항을 통해 사전 안내하겠습니다."
+      }
+    ],
+    "itemsEn": [
+      {
+        "title": "Overview",
+        "icon": "📋",
+        "text": "This Privacy Policy applies to the **tukmark** mobile application (iOS/Android, hereinafter \"App\") provided by **Lamoss Tech** (hereinafter \"Company\").\n\nThe Company complies with applicable privacy laws and regulations, and is committed to safely managing users' personal information. This policy explains what personal information is collected, how it is used, and what measures are taken to protect it."
+      },
+      {
+        "title": "Information We Collect",
+        "icon": "📊",
+        "text": "The App collects the following personal information to provide its services.\n\n### Upon Sign-up (Social Login)\n- **Required**: Email address, name (nickname), unique identifier (OAuth ID)\n- **Collection method**: Automatically collected through Google, Kakao, or Apple social login\n- No personal information is collected when using the app as a guest (anonymous).\n\n### Automatically Collected During Use\n- Device information (OS type and version, device model)\n- App usage records (access times, feature usage)\n- IP address\n\n### User-Provided Information\n- Bookmark data (URL, title, memo, tags)\n- Category settings\n- Favorites and content management information\n\n### Upon Payment (Pro Subscription)\n- In-app purchase receipt information (for Apple/Google payment verification)\n- The Company does not directly collect payment method details such as card numbers; these are processed through Apple/Google payment systems."
+      },
+      {
+        "title": "Purpose of Processing",
+        "icon": "🎯",
+        "text": "Collected personal information is processed only for the following purposes.\n\n### Service Provision and Operation\n- User identification and authentication\n- Bookmark saving, classification, and synchronization\n- AI automatic classification service (content metadata sent to LLM for category classification)\n- Cloud synchronization (cross-device data sync)\n\n### Service Improvement\n- Analyzing app usage patterns and improving features\n- Utilizing training data to improve AI classification accuracy\n- Error diagnosis and service stability improvement\n\n### Customer Support\n- Responding to user inquiries and handling complaints"
+      },
+      {
+        "title": "Retention Period",
+        "icon": "⏱️",
+        "text": "The Company promptly destroys personal information after the purpose of collection and use has been achieved.\n\n| Item | Retention Period | Reason |\n|------|-----------------|--------|\n| Account information | Until account deletion | Service provision |\n| Bookmark data | Upon deletion request or account deletion | Service provision |\n| AI training data | 1 year from collection | Classification accuracy improvement |\n| Access logs | 3 months | Legal compliance |\n| Payment records | 5 years | E-commerce law compliance |\n\nWhen a user deletes their account, all bookmarks, categories, and personal information stored in the cloud are immediately destroyed."
+      },
+      {
+        "title": "Third-Party Provision and Processing Delegation",
+        "icon": "🔒",
+        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Authentication, data storage, cloud sync | Account info, bookmark data |\n| **Groq** (US) | AI content classification | Content metadata (title, description, author) |\n| **Google Gemini** (US) | AI content classification (fallback) | Content metadata (title, description, author) |\n| **Google** | Social login, in-app purchase verification | OAuth info, payment receipts |\n| **Kakao** | Social login | OAuth info |\n| **Apple** | Social login, in-app purchase verification | OAuth info, payment receipts |\n\nInformation sent during AI classification consists of **content metadata** (title, description, author name) and does not include personally identifiable information."
+      },
+      {
+        "title": "Your Rights",
+        "icon": "⚖️",
+        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent for collection and use of personal information.\n\n### How to Exercise\n- **In-App**: Settings > Account Management — log out or delete account\n- **Email**: Send request to kara090813@gmail.com\n- Processing within **10 days** after identity verification.\n\n### Data Management\n- Local data (SQLite) is automatically destroyed when the app is uninstalled.\n- Cloud data is immediately destroyed upon account deletion.\n- When using as a guest, all data is stored only on the device and is not transmitted to the server."
+      },
+      {
+        "title": "Data Destruction",
+        "icon": "🗑️",
+        "text": "The Company promptly destroys personal information when it is no longer needed, such as when the retention period has expired or the purpose of processing has been achieved.\n\n### Destruction Procedure\n- Personal information is moved to a separate database after the purpose is achieved, stored for a certain period according to internal policies and relevant laws, and then destroyed.\n- Personal information moved to a separate database is not used for other purposes except as required by law.\n\n### Destruction Method\n- Electronic files: Permanently deleted using methods that prevent recovery and reproduction\n- Paper documents: Shredded or incinerated\n\n### Soft Deletion Policy\n- When bookmarks are deleted, they are soft-deleted on the server (deleted_at timestamp) and **completely destroyed after 30 days**.\n- When an account is deleted, all related data is **immediately and completely destroyed**."
+      },
+      {
+        "title": "Security Measures",
+        "icon": "🔐",
+        "text": "The Company takes the following measures to ensure the security of personal information.\n\n### Technical Measures\n- **HTTPS (TLS) encryption** applied to all data transmissions\n- Supabase **Row Level Security (RLS)** policies ensure only the owner can access their data\n- Token-based access control (JWT)\n- Passwords and sensitive information are not stored on the server (OAuth method)\n- Offline data stored in device SQLite (relies on device encryption)\n\n### Administrative Measures\n- Access to personal information limited to minimum necessary personnel\n- Regular security audits and vulnerability assessments\n- Privacy protection training\n\nHowever, transmission over the internet or electronic storage methods cannot guarantee 100% security."
+      },
+      {
+        "title": "Privacy Officer & Contact",
+        "icon": "📞",
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\nFor reports or consultations regarding personal information infringement, please contact:\n\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 4, 2026**. Any changes will be announced through app notifications in advance."
+      }
+    ]
+  },
+  {
+    "info": {
+      "id": "tukmark-web",
+      "titleKo": "툭마크 (웹)",
+      "titleEn": "tukmark (Web)",
+      "dateKo": "2026년 4월 4일",
+      "dateEn": "April 4, 2026"
+    },
+    "itemsKo": [
+      {
+        "title": "개요",
+        "icon": "📋",
+        "text": "본 개인정보 처리방침은 **Lamoss Tech**(이하 \"회사\")가 제공하는 **툭마크** 웹 서비스(tukmark.com, 이하 \"웹사이트\")에 적용됩니다.\n\n회사는 「개인정보 보호법」 등 관련 법령을 준수하며, 이용자의 개인정보를 안전하게 관리하기 위하여 최선을 다합니다. 본 방침은 이용자가 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보 보호를 위해 어떤 조치가 취해지고 있는지 안내합니다."
+      },
+      {
+        "title": "수집하는 개인정보",
+        "icon": "📊",
+        "text": "웹사이트는 서비스 제공을 위해 다음과 같은 개인정보를 수집합니다.\n\n### 회원가입 시 (소셜 로그인)\n- **필수**: 이메일 주소, 이름(닉네임), 고유 식별자(OAuth ID)\n- **수집 방법**: Google, Kakao, Apple 소셜 로그인을 통한 자동 수집\n\n### 서비스 이용 과정에서 자동 수집\n- 브라우저 종류 및 버전\n- 접속 일시 및 이용 기록\n- IP 주소\n- 쿠키 및 세션 정보\n\n### 이용자가 직접 입력하는 정보\n- 북마크 데이터 (URL, 제목, 메모, 태그)\n- 카테고리 설정 정보\n- 즐겨찾기 및 콘텐츠 관리 정보\n\n### 클립보드 접근\n- 웹사이트는 이용자의 **명시적 동의** 하에 클립보드의 URL을 읽어 빠른 북마크 추가 기능을 제공합니다.\n- 클립보드 데이터는 서버에 별도로 저장되지 않습니다."
+      },
+      {
+        "title": "개인정보의 처리 목적",
+        "icon": "🎯",
+        "text": "수집된 개인정보는 다음의 목적으로만 처리됩니다.\n\n### 서비스 제공 및 운영\n- 회원 식별 및 인증\n- 북마크 저장, 분류, 동기화 기능 제공\n- AI 자동 분류 서비스 (콘텐츠 메타데이터를 LLM에 전달하여 카테고리 분류)\n- 클라우드 동기화 (앱·확장프로그램 간 데이터 연동)\n\n### 서비스 개선\n- 웹사이트 사용 패턴 분석 및 기능 개선\n- AI 분류 정확도 향상을 위한 학습 데이터 활용\n- 오류 진단 및 서비스 안정성 향상\n\n### 고객 지원\n- 이용자 문의 대응 및 불만 처리"
+      },
+      {
+        "title": "개인정보의 보유 및 이용 기간",
+        "icon": "⏱️",
+        "text": "회사는 개인정보 수집 및 이용 목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.\n\n| 항목 | 보유 기간 | 사유 |\n|------|----------|------|\n| 회원 계정 정보 | 회원 탈퇴 시까지 | 서비스 제공 |\n| 북마크 데이터 | 삭제 요청 시 또는 탈퇴 시 | 서비스 제공 |\n| AI 학습 데이터 | 수집일로부터 1년 | 분류 정확도 개선 |\n| 접속 로그 | 3개월 | 통신비밀보호법 |\n\n이용자가 계정을 삭제하면 클라우드에 저장된 모든 북마크, 카테고리, 개인정보가 즉시 파기됩니다.\n\n### 로컬 캐시 (IndexedDB)\n- 웹사이트는 성능 향상을 위해 브라우저 IndexedDB에 북마크 데이터를 캐싱합니다.\n- 이 데이터는 브라우저 캐시 삭제 시 자동으로 제거됩니다."
+      },
+      {
+        "title": "개인정보의 제3자 제공 및 처리 위탁",
+        "icon": "🔒",
+        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 인증, 데이터 저장, 클라우드 동기화 | 계정 정보, 북마크 데이터 |\n| **Groq** (미국) | AI 콘텐츠 분류 | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google Gemini** (미국) | AI 콘텐츠 분류 (폴백) | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Vercel** (미국) | 웹사이트 호스팅 | 접속 로그, IP 주소 |\n| **Google** | 소셜 로그인 | OAuth 인증 정보 |\n| **Kakao** | 소셜 로그인 | OAuth 인증 정보 |\n| **Apple** | 소셜 로그인 | OAuth 인증 정보 |\n\nAI 분류 시 전달되는 정보는 **콘텐츠의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
+      },
+      {
+        "title": "정보주체의 권리와 행사 방법",
+        "icon": "⚖️",
+        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 개인정보 수집·이용 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **웹사이트 내**: 설정 > 계정 관리에서 로그아웃 또는 계정 삭제\n- **이메일**: kara090813@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다."
+      },
+      {
+        "title": "개인정보의 파기",
+        "icon": "🗑️",
+        "text": "회사는 개인정보 보유 기간의 경과, 처리 목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체 없이 해당 개인정보를 파기합니다.\n\n### 파기 방법\n- 전자적 파일: 복구 및 재생이 불가능한 방법으로 영구 삭제\n- 종이 문서: 분쇄기로 분쇄하거나 소각\n\n### 소프트 삭제 정책\n- 북마크 삭제 시 서버에서 소프트 삭제(deleted_at 기록) 처리되며, **30일 후 완전 파기**됩니다.\n- 계정 삭제 시 관련 데이터가 **즉시 완전 파기**됩니다."
+      },
+      {
+        "title": "쿠키 및 로컬 저장소",
+        "icon": "🍪",
+        "text": "웹사이트는 서비스 제공을 위해 쿠키 및 로컬 저장소를 사용합니다.\n\n### 사용 목적\n- **인증 세션 유지**: 로그인 상태를 유지하기 위해 세션 토큰을 저장합니다.\n- **사용자 설정 저장**: 테마(다크/라이트), 보기 모드(그리드/리스트), 정렬 설정 등을 저장합니다.\n- **성능 최적화**: IndexedDB에 북마크 데이터를 캐싱하여 로딩 속도를 개선합니다.\n\n### 관리 방법\n- 브라우저 설정에서 쿠키를 삭제하거나 차단할 수 있습니다.\n- 쿠키를 차단할 경우 로그인 등 일부 기능이 제한될 수 있습니다."
+      },
+      {
+        "title": "개인정보의 안전성 확보 조치",
+        "icon": "🔐",
+        "text": "회사는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.\n\n### 기술적 조치\n- 모든 데이터 전송 시 **HTTPS(TLS) 암호화** 적용\n- Supabase **Row Level Security(RLS)** 정책으로 본인 데이터만 접근 가능\n- 인증 토큰 기반 접근 제어 (JWT)\n- API 시크릿은 서버 사이드에서만 관리 (클라이언트 미노출)\n\n### 관리적 조치\n- 개인정보 접근 권한을 최소한의 인원으로 제한\n- 정기적인 보안 점검 및 취약점 진단\n\n그러나 인터넷을 통한 전송이나 전자 저장 방식은 **100% 안전성을 보장할 수는 없습니다**."
+      },
+      {
+        "title": "개인정보 보호책임자 및 연락처",
+        "icon": "📞",
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 4일**부터 적용됩니다. 변경 사항이 있을 경우 웹사이트 공지를 통해 사전 안내하겠습니다."
+      }
+    ],
+    "itemsEn": [
+      {
+        "title": "Overview",
+        "icon": "📋",
+        "text": "This Privacy Policy applies to the **tukmark** web service (tukmark.com, hereinafter \"Website\") provided by **Lamoss Tech** (hereinafter \"Company\").\n\nThe Company complies with applicable privacy laws and regulations, and is committed to safely managing users' personal information. This policy explains what personal information is collected, how it is used, and what measures are taken to protect it."
+      },
+      {
+        "title": "Information We Collect",
+        "icon": "📊",
+        "text": "The Website collects the following personal information to provide its services.\n\n### Upon Sign-up (Social Login)\n- **Required**: Email address, name (nickname), unique identifier (OAuth ID)\n- **Collection method**: Automatically collected through Google, Kakao, or Apple social login\n\n### Automatically Collected During Use\n- Browser type and version\n- Access times and usage records\n- IP address\n- Cookies and session information\n\n### User-Provided Information\n- Bookmark data (URL, title, memo, tags)\n- Category settings\n- Favorites and content management information\n\n### Clipboard Access\n- The Website reads clipboard URLs with the user's **explicit consent** to provide quick bookmark addition.\n- Clipboard data is not separately stored on the server."
+      },
+      {
+        "title": "Purpose of Processing",
+        "icon": "🎯",
+        "text": "Collected personal information is processed only for the following purposes.\n\n### Service Provision and Operation\n- User identification and authentication\n- Bookmark saving, classification, and synchronization\n- AI automatic classification service (content metadata sent to LLM for category classification)\n- Cloud synchronization (cross-platform data sync with app and extension)\n\n### Service Improvement\n- Analyzing website usage patterns and improving features\n- Utilizing training data to improve AI classification accuracy\n- Error diagnosis and service stability improvement\n\n### Customer Support\n- Responding to user inquiries and handling complaints"
+      },
+      {
+        "title": "Retention Period",
+        "icon": "⏱️",
+        "text": "The Company promptly destroys personal information after the purpose of collection and use has been achieved.\n\n| Item | Retention Period | Reason |\n|------|-----------------|--------|\n| Account information | Until account deletion | Service provision |\n| Bookmark data | Upon deletion request or account deletion | Service provision |\n| AI training data | 1 year from collection | Classification accuracy improvement |\n| Access logs | 3 months | Legal compliance |\n\nWhen a user deletes their account, all bookmarks, categories, and personal information stored in the cloud are immediately destroyed.\n\n### Local Cache (IndexedDB)\n- The Website caches bookmark data in the browser's IndexedDB for performance.\n- This data is automatically removed when the browser cache is cleared."
+      },
+      {
+        "title": "Third-Party Provision and Processing Delegation",
+        "icon": "🔒",
+        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Authentication, data storage, cloud sync | Account info, bookmark data |\n| **Groq** (US) | AI content classification | Content metadata (title, description, author) |\n| **Google Gemini** (US) | AI content classification (fallback) | Content metadata (title, description, author) |\n| **Vercel** (US) | Website hosting | Access logs, IP address |\n| **Google** | Social login | OAuth info |\n| **Kakao** | Social login | OAuth info |\n| **Apple** | Social login | OAuth info |\n\nInformation sent during AI classification consists of **content metadata** (title, description, author name) and does not include personally identifiable information."
+      },
+      {
+        "title": "Your Rights",
+        "icon": "⚖️",
+        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent for collection and use of personal information.\n\n### How to Exercise\n- **On Website**: Settings > Account Management — log out or delete account\n- **Email**: Send request to kara090813@gmail.com\n- Processing within **10 days** after identity verification."
+      },
+      {
+        "title": "Data Destruction",
+        "icon": "🗑️",
+        "text": "The Company promptly destroys personal information when it is no longer needed.\n\n### Destruction Method\n- Electronic files: Permanently deleted using methods that prevent recovery and reproduction\n- Paper documents: Shredded or incinerated\n\n### Soft Deletion Policy\n- When bookmarks are deleted, they are soft-deleted on the server (deleted_at timestamp) and **completely destroyed after 30 days**.\n- When an account is deleted, all related data is **immediately and completely destroyed**."
+      },
+      {
+        "title": "Cookies and Local Storage",
+        "icon": "🍪",
+        "text": "The Website uses cookies and local storage to provide services.\n\n### Purpose of Use\n- **Session maintenance**: Session tokens are stored to maintain login state.\n- **User preferences**: Theme (dark/light), view mode (grid/list), sort settings, etc.\n- **Performance optimization**: Bookmark data is cached in IndexedDB to improve loading speed.\n\n### Management\n- You can delete or block cookies through browser settings.\n- Blocking cookies may limit some features such as login."
+      },
+      {
+        "title": "Security Measures",
+        "icon": "🔐",
+        "text": "The Company takes the following measures to ensure the security of personal information.\n\n### Technical Measures\n- **HTTPS (TLS) encryption** applied to all data transmissions\n- Supabase **Row Level Security (RLS)** policies ensure only the owner can access their data\n- Token-based access control (JWT)\n- API secrets managed server-side only (not exposed to client)\n\n### Administrative Measures\n- Access to personal information limited to minimum necessary personnel\n- Regular security audits and vulnerability assessments\n\nHowever, transmission over the internet or electronic storage methods cannot guarantee 100% security."
+      },
+      {
+        "title": "Privacy Officer & Contact",
+        "icon": "📞",
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 4, 2026**. Any changes will be announced through the website in advance."
+      }
+    ]
+  },
+  {
+    "info": {
+      "id": "tukmark-extension",
+      "titleKo": "툭마크 (크롬 확장프로그램)",
+      "titleEn": "tukmark (Chrome Extension)",
+      "dateKo": "2026년 4월 4일",
+      "dateEn": "April 4, 2026"
+    },
+    "itemsKo": [
+      {
+        "title": "개요",
+        "icon": "📋",
+        "text": "본 개인정보 처리방침은 **Lamoss Tech**(이하 \"회사\")가 제공하는 **툭마크** 크롬 확장프로그램(이하 \"확장프로그램\")에 적용됩니다.\n\n회사는 「개인정보 보호법」 등 관련 법령을 준수하며, 이용자의 개인정보를 안전하게 관리하기 위하여 최선을 다합니다. 본 방침은 확장프로그램이 수집하는 정보와 그 처리 방식을 안내합니다."
+      },
+      {
+        "title": "수집하는 개인정보",
+        "icon": "📊",
+        "text": "확장프로그램은 서비스 제공을 위해 다음과 같은 정보를 수집합니다.\n\n### 인증 정보\n- **세션 토큰**: 툭마크 웹사이트(tukmark.com) 로그인 세션을 공유하여 인증합니다.\n- 확장프로그램 자체에서 로그인 정보를 직접 수집하지 않으며, 웹사이트의 세션을 참조합니다.\n\n### 저장 시 수집하는 정보\n- 현재 활성 탭의 **URL** 및 **페이지 제목**\n- 페이지 메타데이터 (OG 태그, JSON-LD, 작성자, 설명, 썸네일 URL)\n- 이용자가 직접 입력한 **메모** 및 **태그**\n\n### 자동 수집 정보\n- 확장프로그램 버전 정보\n- 브라우저 탭 정보 (저장 동작 시에만 접근)\n\n### 수집하지 않는 정보\n- 방문 기록 (browsing history)\n- 키보드 입력 내용 (keystrokes)\n- 저장 동작 외의 페이지 콘텐츠\n- 로그인 자격 증명 (비밀번호 등)"
+      },
+      {
+        "title": "확장프로그램 권한 안내",
+        "icon": "🔑",
+        "text": "확장프로그램은 다음의 브라우저 권한을 사용하며, 각 권한은 서비스 제공 목적으로만 사용됩니다.\n\n| 권한 | 용도 | 접근 시점 |\n|------|------|----------|\n| **activeTab** | 저장 버튼 클릭 시 현재 탭의 URL과 제목 가져오기 | 이용자 클릭 시에만 |\n| **tabs** | 탭 URL 읽기, 웹앱 세션 동기화 | 저장 및 인증 시 |\n| **storage** | 로그인 세션, 자동분류 설정 로컬 저장 | 설정 변경 시 |\n| **scripting** | 페이지에 콘텐츠 스크립트 주입하여 메타데이터 추출 | 저장 동작 시에만 |\n| **host_permissions** | 모든 웹사이트에서 OG 태그 등 메타데이터 읽기 | 저장 동작 시에만 |\n\n모든 권한은 이용자가 **저장 동작을 실행할 때에만** 활성화되며, 백그라운드에서 사용자 활동을 추적하지 않습니다."
+      },
+      {
+        "title": "개인정보의 처리 목적",
+        "icon": "🎯",
+        "text": "수집된 정보는 다음의 목적으로만 처리됩니다.\n\n### 서비스 제공\n- 현재 페이지를 북마크로 저장\n- AI 자동 분류 서비스 (페이지 메타데이터를 LLM에 전달하여 카테고리 분류)\n- 저장된 북마크에 메모 및 태그 추가\n- 툭마크 웹/앱과의 데이터 동기화\n\n### 웹앱 연동\n- 웹앱에서 서버 추출 실패 시, 확장프로그램을 통한 메타데이터 추출 폴백\n- 추출 대기 큐(pending extractions) 처리"
+      },
+      {
+        "title": "개인정보의 보유 및 이용 기간",
+        "icon": "⏱️",
+        "text": "### 로컬 저장 (chrome.storage.local)\n- **세션 토큰**: 로그아웃 시 즉시 삭제\n- **설정 정보**: 확장프로그램 제거 시 자동 삭제\n\n### 서버 저장\n- 저장된 북마크 데이터는 툭마크 서버(Supabase)에 전송·저장되며, 툭마크 앱/웹 개인정보 처리방침의 보유 기간 정책을 따릅니다.\n- 계정 삭제 시 모든 관련 데이터가 즉시 파기됩니다.\n\n### 임시 데이터\n- 메타데이터 추출을 위한 히든 탭은 추출 완료 후 **즉시 닫힙니다**.\n- 추출된 메타데이터는 서버 전송 후 로컬에 보관하지 않습니다."
+      },
+      {
+        "title": "개인정보의 제3자 제공 및 처리 위탁",
+        "icon": "🔒",
+        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 데이터 저장, 카테고리 조회 | 북마크 데이터, 카테고리 정보 |\n| **tukmark.com API** | 메타데이터 추출, AI 분류 | 페이지 URL, 메타데이터 |\n\n확장프로그램은 **tukmark.com의 API 라우트를 프록시**로 사용하여 서버와 통신합니다. LLM API 키 등 민감 정보는 서버 사이드에서만 관리되며, 확장프로그램에 포함되지 않습니다.\n\nAI 분류 시 전달되는 정보는 **페이지의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
+      },
+      {
+        "title": "정보주체의 권리와 행사 방법",
+        "icon": "⚖️",
+        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 확장프로그램을 제거하여 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **확장프로그램 내**: 설정에서 로그아웃\n- **확장프로그램 제거**: 크롬 브라우저에서 확장프로그램 제거 시 모든 로컬 데이터 삭제\n- **계정 삭제**: 툭마크 웹사이트 또는 앱에서 계정 삭제\n- **이메일**: kara090813@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다."
+      },
+      {
+        "title": "개인정보의 안전성 확보 조치",
+        "icon": "🔐",
+        "text": "회사는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.\n\n### 기술적 조치\n- 모든 서버 통신 시 **HTTPS(TLS) 암호화** 적용\n- 세션 토큰은 **chrome.storage.local**에 저장 (브라우저 프로필별 암호화)\n- **externally_connectable**: tukmark.com만 외부 통신 허용 (제3자 사이트 차단)\n- Supabase **Row Level Security(RLS)** 정책으로 본인 데이터만 접근 가능\n- LLM API 키 등 민감 정보는 서버 사이드에만 존재 (확장프로그램 미포함)\n- Supabase anon key는 RLS 정책으로 보호 (키 노출 시에도 본인 데이터만 접근)\n\n### 관리적 조치\n- 개인정보 접근 권한을 최소한의 인원으로 제한\n- 정기적인 보안 점검 및 취약점 진단\n\n그러나 인터넷을 통한 전송이나 전자 저장 방식은 **100% 안전성을 보장할 수는 없습니다**."
+      },
+      {
+        "title": "개인정보 보호책임자 및 연락처",
+        "icon": "📞",
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 4일**부터 적용됩니다. 변경 사항이 있을 경우 크롬 웹 스토어 및 웹사이트를 통해 사전 안내하겠습니다."
+      }
+    ],
+    "itemsEn": [
+      {
+        "title": "Overview",
+        "icon": "📋",
+        "text": "This Privacy Policy applies to the **tukmark** Chrome extension (hereinafter \"Extension\") provided by **Lamoss Tech** (hereinafter \"Company\").\n\nThe Company complies with applicable privacy laws and regulations, and is committed to safely managing users' personal information. This policy explains what information the Extension collects and how it is processed."
+      },
+      {
+        "title": "Information We Collect",
+        "icon": "📊",
+        "text": "The Extension collects the following information to provide its services.\n\n### Authentication Information\n- **Session tokens**: Authentication is shared from the tukmark website (tukmark.com) login session.\n- The Extension does not directly collect login credentials; it references the website's session.\n\n### Information Collected When Saving\n- **URL** and **page title** of the currently active tab\n- Page metadata (OG tags, JSON-LD, author, description, thumbnail URL)\n- **Memos** and **tags** entered directly by the user\n\n### Automatically Collected Information\n- Extension version information\n- Browser tab information (accessed only during save actions)\n\n### Information NOT Collected\n- Browsing history\n- Keystroke data\n- Page content outside of save actions\n- Login credentials (passwords, etc.)"
+      },
+      {
+        "title": "Extension Permissions",
+        "icon": "🔑",
+        "text": "The Extension uses the following browser permissions, each used solely for service provision purposes.\n\n| Permission | Purpose | When Accessed |\n|-----------|---------|---------------|\n| **activeTab** | Get current tab URL and title when save button is clicked | User click only |\n| **tabs** | Read tab URLs, sync web app session | During save and authentication |\n| **storage** | Store login session and auto-classification settings locally | On settings change |\n| **scripting** | Inject content script into pages to extract metadata | During save action only |\n| **host_permissions** | Read metadata such as OG tags from any website | During save action only |\n\nAll permissions are **activated only when the user performs a save action** and do not track user activity in the background."
+      },
+      {
+        "title": "Purpose of Processing",
+        "icon": "🎯",
+        "text": "Collected information is processed only for the following purposes.\n\n### Service Provision\n- Save the current page as a bookmark\n- AI automatic classification service (page metadata sent to LLM for category classification)\n- Add memos and tags to saved bookmarks\n- Data synchronization with tukmark web/app\n\n### Web App Integration\n- Metadata extraction fallback when server extraction fails on the web app\n- Processing pending extractions queue"
+      },
+      {
+        "title": "Retention Period",
+        "icon": "⏱️",
+        "text": "### Local Storage (chrome.storage.local)\n- **Session tokens**: Immediately deleted upon logout\n- **Settings**: Automatically deleted when the extension is removed\n\n### Server Storage\n- Saved bookmark data is transmitted to and stored on the tukmark server (Supabase), following the retention period policies of the tukmark app/web privacy policy.\n- All related data is immediately destroyed upon account deletion.\n\n### Temporary Data\n- Hidden tabs used for metadata extraction are **closed immediately** after extraction.\n- Extracted metadata is not retained locally after server transmission."
+      },
+      {
+        "title": "Third-Party Provision and Processing Delegation",
+        "icon": "🔒",
+        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Data storage, category retrieval | Bookmark data, category info |\n| **tukmark.com API** | Metadata extraction, AI classification | Page URL, metadata |\n\nThe Extension communicates with the server through **tukmark.com's API routes as a proxy**. Sensitive information such as LLM API keys is managed server-side only and is not included in the Extension.\n\nInformation sent during AI classification consists of **page metadata** (title, description, author name) and does not include personally identifiable information."
+      },
+      {
+        "title": "Your Rights",
+        "icon": "⚖️",
+        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent by removing the extension.\n\n### How to Exercise\n- **In Extension**: Log out from settings\n- **Remove Extension**: Removing the extension from Chrome deletes all local data\n- **Delete Account**: Delete account through the tukmark website or app\n- **Email**: Send request to kara090813@gmail.com\n- Processing within **10 days** after identity verification."
+      },
+      {
+        "title": "Security Measures",
+        "icon": "🔐",
+        "text": "The Company takes the following measures to ensure the security of personal information.\n\n### Technical Measures\n- **HTTPS (TLS) encryption** applied to all server communications\n- Session tokens stored in **chrome.storage.local** (encrypted per browser profile)\n- **externally_connectable**: Only tukmark.com allowed for external communication (third-party sites blocked)\n- Supabase **Row Level Security (RLS)** policies ensure only the owner can access their data\n- Sensitive information such as LLM API keys exists server-side only (not included in Extension)\n- Supabase anon key is protected by RLS policies (only own data accessible even if key is exposed)\n\n### Administrative Measures\n- Access to personal information limited to minimum necessary personnel\n- Regular security audits and vulnerability assessments\n\nHowever, transmission over the internet or electronic storage methods cannot guarantee 100% security."
+      },
+      {
+        "title": "Privacy Officer & Contact",
+        "icon": "📞",
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 4, 2026**. Any changes will be announced through the Chrome Web Store and website in advance."
       }
     ]
   }

@@ -76,15 +76,21 @@ export default function HomePage() {
                 <div key={project.id} className="fade-in">
                   <Link
                     href={`/projects/${project.id}`}
-                    className="group block glass rounded-2xl overflow-hidden hover:glow transition-shadow duration-300"
+                    className="group flex flex-col h-full glass rounded-2xl overflow-hidden hover:glow transition-shadow duration-300"
                   >
-                    <div className="relative h-44 sm:h-52 overflow-hidden">
-                      <Image
-                        src={project.bannerImage}
-                        alt={project.projectName}
-                        fill
-                        className="object-cover group-hover:scale-[1.03] transition-transform duration-500"
-                      />
+                    <div className="relative h-44 sm:h-52 overflow-hidden shrink-0">
+                      {project.bannerImage ? (
+                        <Image
+                          src={project.bannerImage}
+                          alt={project.projectName}
+                          fill
+                          className="object-cover group-hover:scale-[1.03] transition-transform duration-500"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-surface to-accent/10 flex items-center justify-center">
+                          <span className="text-4xl font-bold gradient-text">{project.projectName}</span>
+                        </div>
+                      )}
                       <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent" />
                       <div className="absolute top-3 right-3 sm:top-4 sm:right-4">
                         <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-500/20 text-green-400 border border-green-500/20">
@@ -92,11 +98,11 @@ export default function HomePage() {
                         </span>
                       </div>
                     </div>
-                    <div className="p-5 sm:p-6">
+                    <div className="p-5 sm:p-6 flex flex-col flex-1">
                       <h3 className="text-lg sm:text-xl font-bold mb-2 group-hover:text-primary transition-colors">
                         {project.projectName}
                       </h3>
-                      <p className="text-muted text-sm mb-3 sm:mb-4 whitespace-pre-line">
+                      <p className="text-muted text-sm mb-3 sm:mb-4 whitespace-pre-line flex-1">
                         {project.shortDescription}
                       </p>
                       <div className="flex flex-wrap gap-2">

@@ -158,6 +158,35 @@ body {
   color: var(--color-foreground);
   font-weight: 600;
 }
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+.markdown-content thead th {
+  text-align: left;
+  padding: 0.625rem 0.75rem;
+  font-weight: 600;
+  color: var(--color-foreground);
+  background: var(--color-surface-light);
+  border-bottom: 1px solid var(--color-border);
+}
+.markdown-content thead th:first-child {
+  border-radius: 0.5rem 0 0 0;
+}
+.markdown-content thead th:last-child {
+  border-radius: 0 0.5rem 0 0;
+}
+.markdown-content tbody td {
+  padding: 0.5rem 0.75rem;
+  color: var(--color-muted);
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.markdown-content tbody tr:last-child td {
+  border-bottom: none;
+}
 
 /* Mobile touch improvements */
 @media (max-width: 768px) {
@@ -165,4 +194,15 @@ body {
   .markdown-content h2 { font-size: 1.25rem; }
   .markdown-content h3 { font-size: 1.1rem; }
   .markdown-content p { font-size: 0.9rem; line-height: 1.7; }
+  .markdown-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .markdown-content thead th,
+  .markdown-content tbody td {
+    padding: 0.5rem 0.625rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
 }

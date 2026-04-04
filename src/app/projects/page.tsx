@@ -57,12 +57,18 @@ export default function ProjectsPage() {
                 >
                   <Link href={`/projects/${project.id}`}>
                     <div className="relative h-40 sm:h-48 overflow-hidden">
-                      <Image
-                        src={project.bannerImage}
-                        alt={project.projectName}
-                        fill
-                        className="object-cover group-hover:scale-[1.03] transition-transform duration-500"
-                      />
+                      {project.bannerImage ? (
+                        <Image
+                          src={project.bannerImage}
+                          alt={project.projectName}
+                          fill
+                          className="object-cover group-hover:scale-[1.03] transition-transform duration-500"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-surface to-accent/10 flex items-center justify-center">
+                          <span className="text-3xl font-bold gradient-text">{project.projectName}</span>
+                        </div>
+                      )}
                       <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent" />
                       <div className="absolute top-3 right-3 sm:top-4 sm:right-4">
                         <StatusBadge status={project.status} />
