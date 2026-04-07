@@ -193,8 +193,8 @@
       "id": "tukmark-app",
       "titleKo": "툭마크 (앱)",
       "titleEn": "tukmark (App)",
-      "dateKo": "2026년 4월 4일",
-      "dateEn": "April 4, 2026"
+      "dateKo": "2026년 4월 7일",
+      "dateEn": "April 7, 2026"
     },
     "itemsKo": [
       {
@@ -205,7 +205,7 @@
       {
         "title": "수집하는 개인정보",
         "icon": "📊",
-        "text": "앱은 서비스 제공을 위해 다음과 같은 개인정보를 수집합니다.\n\n### 회원가입 시 (소셜 로그인)\n- **필수**: 이메일 주소, 이름(닉네임), 고유 식별자(OAuth ID)\n- **수집 방법**: Google, Kakao, Apple 소셜 로그인을 통한 자동 수집\n- 비회원(익명) 이용 시에는 개인정보를 수집하지 않습니다.\n\n### 서비스 이용 과정에서 자동 수집\n- 기기 정보 (OS 종류 및 버전, 기기 모델)\n- 앱 사용 기록 (접속 일시, 기능 사용 내역)\n- IP 주소\n\n### 이용자가 직접 입력하는 정보\n- 북마크 데이터 (URL, 제목, 메모, 태그)\n- 카테고리 설정 정보\n- 즐겨찾기 및 콘텐츠 관리 정보\n\n### 결제 시 (Pro 구독)\n- 인앱결제 영수증 정보 (Apple/Google 결제 검증용)\n- 회사는 카드번호 등 결제 수단 정보를 직접 수집하지 않으며, Apple/Google 결제 시스템을 통해 처리됩니다."
+        "text": "앱은 서비스 제공을 위해 다음과 같은 개인정보를 수집합니다.\n\n### 회원가입 시 (소셜 로그인)\n- **필수**: 이메일 주소, 이름(닉네임), 고유 식별자(OAuth ID)\n- **수집 방법**: Google, Kakao, Apple 소셜 로그인을 통한 자동 수집\n- 비회원(익명) 이용 시에도 서비스 제공을 위해 익명(anonymous) 세션이 생성되며, 북마크 데이터가 클라우드에 저장됩니다.\n\n### 광고 관련 안내 (iOS)\n- iOS 14.5 이상에서는 앱 추적 투명성(ATT) 프레임워크에 따라 맞춤형 광고를 위한 추적 동의를 요청합니다.\n- 동의하지 않아도 서비스 이용에 제한은 없으나, 비맞춤형 광고가 표시됩니다.\n\n### 서비스 이용 과정에서 자동 수집\n- 기기 정보 (OS 종류 및 버전, 기기 모델)\n- 앱 사용 기록 (접속 일시, 기능 사용 내역)\n- IP 주소\n- 광고 식별자 (IDFA/GAID)\n- 광고 상호작용 데이터\n\n### 이용자가 직접 입력하는 정보\n- 북마크 데이터 (URL, 제목, 메모, 태그)\n- 카테고리 설정 정보\n- 즐겨찾기 및 콘텐츠 관리 정보\n\n### 결제 시 (Pro 구독)\n- 인앱결제 영수증 정보 (Apple/Google 결제 검증용)\n- 회사는 카드번호 등 결제 수단 정보를 직접 수집하지 않으며, Apple/Google 결제 시스템을 통해 처리됩니다."
       },
       {
         "title": "개인정보의 처리 목적",
@@ -220,12 +220,12 @@
       {
         "title": "개인정보의 제3자 제공 및 처리 위탁",
         "icon": "🔒",
-        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 인증, 데이터 저장, 클라우드 동기화 | 계정 정보, 북마크 데이터 |\n| **Groq** (미국) | AI 콘텐츠 분류 | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google Gemini** (미국) | AI 콘텐츠 분류 (폴백) | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google** | 소셜 로그인, 인앱결제 검증 | OAuth 인증 정보, 결제 영수증 |\n| **Kakao** | 소셜 로그인 | OAuth 인증 정보 |\n| **Apple** | 소셜 로그인, 인앱결제 검증 | OAuth 인증 정보, 결제 영수증 |\n\nAI 분류 시 전달되는 정보는 **콘텐츠의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
+        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 인증, 데이터 저장, 클라우드 동기화 | 계정 정보, 북마크 데이터 |\n| **Groq** (미국) | AI 콘텐츠 분류 | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google Gemini** (미국) | AI 콘텐츠 분류 (폴백) | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google** | 소셜 로그인, 인앱결제 검증 | OAuth 인증 정보, 결제 영수증 |\n| **Kakao** | 소셜 로그인 | OAuth 인증 정보 |\n| **Apple** | 소셜 로그인, 인앱결제 검증 | OAuth 인증 정보, 결제 영수증 |\n| **Google AdMob** (미국) | 맞춤형 광고 제공 | 광고 식별자(IDFA/GAID), 기기 정보, 광고 상호작용 데이터 |\n| **Cloudflare** (미국) | 썸네일 이미지 저장 및 전송 (R2) | 콘텐츠 썸네일 이미지 |\n\nAI 분류 시 전달되는 정보는 **콘텐츠의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
       },
       {
         "title": "정보주체의 권리와 행사 방법",
         "icon": "⚖️",
-        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 개인정보 수집·이용 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **앱 내**: 설정 > 계정 관리에서 로그아웃 또는 계정 삭제\n- **이메일**: kara090813@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다.\n\n### 데이터 관리\n- 로컬 데이터(SQLite)는 앱 삭제 시 자동 파기됩니다.\n- 클라우드 데이터는 계정 삭제 시 즉시 파기됩니다.\n- 비회원 이용 시 모든 데이터는 기기 내에만 저장되며 서버에 전송되지 않습니다."
+        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 개인정보 수집·이용 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **앱 내**: 설정 > 계정 관리에서 로그아웃 또는 계정 삭제\n- **이메일**: kara090813@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다.\n\n### 데이터 관리\n- 로컬 데이터(SQLite)는 앱 삭제 시 자동 파기됩니다.\n- 클라우드 데이터는 계정 삭제 시 즉시 파기됩니다.\n- 비회원 이용 시에도 서비스 제공을 위해 익명(anonymous) 세션으로 데이터가 클라우드에 저장됩니다. 기기에서 앱을 삭제하면 로컬 데이터는 제거되지만, 클라우드의 익명 데이터는 일정 기간 보유 후 파기됩니다."
       },
       {
         "title": "개인정보의 파기",
@@ -240,7 +240,7 @@
       {
         "title": "개인정보 보호책임자 및 연락처",
         "icon": "📞",
-        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n기타 개인정보 침해에 대한 신고나 상담이 필요한 경우 아래 기관에 문의하실 수 있습니다.\n\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 4일**부터 적용됩니다. 변경 사항이 있을 경우 앱 공지사항을 통해 사전 안내하겠습니다."
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n기타 개인정보 침해에 대한 신고나 상담이 필요한 경우 아래 기관에 문의하실 수 있습니다.\n\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 앱 공지사항을 통해 사전 안내하겠습니다."
       }
     ],
     "itemsEn": [
@@ -252,7 +252,7 @@
       {
         "title": "Information We Collect",
         "icon": "📊",
-        "text": "The App collects the following personal information to provide its services.\n\n### Upon Sign-up (Social Login)\n- **Required**: Email address, name (nickname), unique identifier (OAuth ID)\n- **Collection method**: Automatically collected through Google, Kakao, or Apple social login\n- No personal information is collected when using the app as a guest (anonymous).\n\n### Automatically Collected During Use\n- Device information (OS type and version, device model)\n- App usage records (access times, feature usage)\n- IP address\n\n### User-Provided Information\n- Bookmark data (URL, title, memo, tags)\n- Category settings\n- Favorites and content management information\n\n### Upon Payment (Pro Subscription)\n- In-app purchase receipt information (for Apple/Google payment verification)\n- The Company does not directly collect payment method details such as card numbers; these are processed through Apple/Google payment systems."
+        "text": "The App collects the following personal information to provide its services.\n\n### Upon Sign-up (Social Login)\n- **Required**: Email address, name (nickname), unique identifier (OAuth ID)\n- **Collection method**: Automatically collected through Google, Kakao, or Apple social login\n- When using the app as a guest (anonymous), an anonymous session is created and bookmark data is stored in the cloud for service provision.\n\n### Advertising (iOS)\n- On iOS 14.5 and above, the App Tracking Transparency (ATT) framework requires consent for personalized advertising tracking.\n- The service can be used without consent, but non-personalized ads will be shown.\n\n### Automatically Collected During Use\n- Device information (OS type and version, device model)\n- App usage records (access times, feature usage)\n- IP address\n- Advertising identifiers (IDFA/GAID)\n- Ad interaction data\n\n### User-Provided Information\n- Bookmark data (URL, title, memo, tags)\n- Category settings\n- Favorites and content management information\n\n### Upon Payment (Pro Subscription)\n- In-app purchase receipt information (for Apple/Google payment verification)\n- The Company does not directly collect payment method details such as card numbers; these are processed through Apple/Google payment systems."
       },
       {
         "title": "Purpose of Processing",
@@ -267,12 +267,12 @@
       {
         "title": "Third-Party Provision and Processing Delegation",
         "icon": "🔒",
-        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Authentication, data storage, cloud sync | Account info, bookmark data |\n| **Groq** (US) | AI content classification | Content metadata (title, description, author) |\n| **Google Gemini** (US) | AI content classification (fallback) | Content metadata (title, description, author) |\n| **Google** | Social login, in-app purchase verification | OAuth info, payment receipts |\n| **Kakao** | Social login | OAuth info |\n| **Apple** | Social login, in-app purchase verification | OAuth info, payment receipts |\n\nInformation sent during AI classification consists of **content metadata** (title, description, author name) and does not include personally identifiable information."
+        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Authentication, data storage, cloud sync | Account info, bookmark data |\n| **Groq** (US) | AI content classification | Content metadata (title, description, author) |\n| **Google Gemini** (US) | AI content classification (fallback) | Content metadata (title, description, author) |\n| **Google** | Social login, in-app purchase verification | OAuth info, payment receipts |\n| **Kakao** | Social login | OAuth info |\n| **Apple** | Social login, in-app purchase verification | OAuth info, payment receipts |\n| **Google AdMob** (US) | Personalized ad serving | Advertising identifiers (IDFA/GAID), device info, ad interaction data |\n| **Cloudflare** (US) | Thumbnail image storage and delivery (R2) | Content thumbnail images |\n\nInformation sent during AI classification consists of **content metadata** (title, description, author name) and does not include personally identifiable information."
       },
       {
         "title": "Your Rights",
         "icon": "⚖️",
-        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent for collection and use of personal information.\n\n### How to Exercise\n- **In-App**: Settings > Account Management — log out or delete account\n- **Email**: Send request to kara090813@gmail.com\n- Processing within **10 days** after identity verification.\n\n### Data Management\n- Local data (SQLite) is automatically destroyed when the app is uninstalled.\n- Cloud data is immediately destroyed upon account deletion.\n- When using as a guest, all data is stored only on the device and is not transmitted to the server."
+        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent for collection and use of personal information.\n\n### How to Exercise\n- **In-App**: Settings > Account Management — log out or delete account\n- **Email**: Send request to kara090813@gmail.com\n- Processing within **10 days** after identity verification.\n\n### Data Management\n- Local data (SQLite) is automatically destroyed when the app is uninstalled.\n- Cloud data is immediately destroyed upon account deletion.\n- When using as a guest, an anonymous session stores data in the cloud for service provision. Uninstalling the app removes local data, but anonymous cloud data is retained for a period before destruction."
       },
       {
         "title": "Data Destruction",
@@ -287,7 +287,7 @@
       {
         "title": "Privacy Officer & Contact",
         "icon": "📞",
-        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\nFor reports or consultations regarding personal information infringement, please contact:\n\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 4, 2026**. Any changes will be announced through app notifications in advance."
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\nFor reports or consultations regarding personal information infringement, please contact:\n\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through app notifications in advance."
       }
     ]
   },
@@ -296,8 +296,8 @@
       "id": "tukmark-web",
       "titleKo": "툭마크 (웹)",
       "titleEn": "tukmark (Web)",
-      "dateKo": "2026년 4월 4일",
-      "dateEn": "April 4, 2026"
+      "dateKo": "2026년 4월 7일",
+      "dateEn": "April 7, 2026"
     },
     "itemsKo": [
       {
@@ -308,7 +308,7 @@
       {
         "title": "수집하는 개인정보",
         "icon": "📊",
-        "text": "웹사이트는 서비스 제공을 위해 다음과 같은 개인정보를 수집합니다.\n\n### 회원가입 시 (소셜 로그인)\n- **필수**: 이메일 주소, 이름(닉네임), 고유 식별자(OAuth ID)\n- **수집 방법**: Google, Kakao, Apple 소셜 로그인을 통한 자동 수집\n\n### 서비스 이용 과정에서 자동 수집\n- 브라우저 종류 및 버전\n- 접속 일시 및 이용 기록\n- IP 주소\n- 쿠키 및 세션 정보\n\n### 이용자가 직접 입력하는 정보\n- 북마크 데이터 (URL, 제목, 메모, 태그)\n- 카테고리 설정 정보\n- 즐겨찾기 및 콘텐츠 관리 정보\n\n### 클립보드 접근\n- 웹사이트는 이용자의 **명시적 동의** 하에 클립보드의 URL을 읽어 빠른 북마크 추가 기능을 제공합니다.\n- 클립보드 데이터는 서버에 별도로 저장되지 않습니다."
+        "text": "웹사이트는 서비스 제공을 위해 다음과 같은 개인정보를 수집합니다.\n\n### 회원가입 시 (소셜 로그인)\n- **필수**: 이메일 주소, 이름(닉네임), 고유 식별자(OAuth ID)\n- **수집 방법**: Google, Kakao, Apple 소셜 로그인을 통한 자동 수집\n\n### 서비스 이용 과정에서 자동 수집\n- 브라우저 종류 및 버전\n- 접속 일시 및 이용 기록\n- IP 주소\n- 쿠키 및 세션 정보\n- 광고 식별자 (GAID 등)\n- 광고 상호작용 데이터\n\n### 비회원(익명) 이용\n- 비회원 이용 시에도 서비스 제공을 위해 익명(anonymous) 세션이 생성되며, 북마크 데이터가 클라우드에 저장됩니다.\n\n### 이용자가 직접 입력하는 정보\n- 북마크 데이터 (URL, 제목, 메모, 태그)\n- 카테고리 설정 정보\n- 즐겨찾기 및 콘텐츠 관리 정보\n\n### 클립보드 접근\n- 웹사이트는 이용자의 **명시적 동의** 하에 클립보드의 URL을 읽어 빠른 북마크 추가 기능을 제공합니다.\n- 클립보드 데이터는 서버에 별도로 저장되지 않습니다."
       },
       {
         "title": "개인정보의 처리 목적",
@@ -323,7 +323,7 @@
       {
         "title": "개인정보의 제3자 제공 및 처리 위탁",
         "icon": "🔒",
-        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 인증, 데이터 저장, 클라우드 동기화 | 계정 정보, 북마크 데이터 |\n| **Groq** (미국) | AI 콘텐츠 분류 | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google Gemini** (미국) | AI 콘텐츠 분류 (폴백) | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Vercel** (미국) | 웹사이트 호스팅 | 접속 로그, IP 주소 |\n| **Google** | 소셜 로그인 | OAuth 인증 정보 |\n| **Kakao** | 소셜 로그인 | OAuth 인증 정보 |\n| **Apple** | 소셜 로그인 | OAuth 인증 정보 |\n\nAI 분류 시 전달되는 정보는 **콘텐츠의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
+        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 인증, 데이터 저장, 클라우드 동기화 | 계정 정보, 북마크 데이터 |\n| **Groq** (미국) | AI 콘텐츠 분류 | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Google Gemini** (미국) | AI 콘텐츠 분류 (폴백) | 콘텐츠 메타데이터 (제목, 설명, 작성자) |\n| **Vercel** (미국) | 웹사이트 호스팅 | 접속 로그, IP 주소 |\n| **Google** | 소셜 로그인 | OAuth 인증 정보 |\n| **Kakao** | 소셜 로그인 | OAuth 인증 정보 |\n| **Apple** | 소셜 로그인 | OAuth 인증 정보 |\n| **Google AdMob** (미국) | 맞춤형 광고 제공 | 광고 식별자, 기기 정보, 광고 상호작용 데이터 |\n| **Cloudflare** (미국) | 썸네일 이미지 저장 및 전송 (R2) | 콘텐츠 썸네일 이미지 |\n\nAI 분류 시 전달되는 정보는 **콘텐츠의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
       },
       {
         "title": "정보주체의 권리와 행사 방법",
@@ -348,7 +348,7 @@
       {
         "title": "개인정보 보호책임자 및 연락처",
         "icon": "📞",
-        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 4일**부터 적용됩니다. 변경 사항이 있을 경우 웹사이트 공지를 통해 사전 안내하겠습니다."
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 웹사이트 공지를 통해 사전 안내하겠습니다."
       }
     ],
     "itemsEn": [
@@ -360,7 +360,7 @@
       {
         "title": "Information We Collect",
         "icon": "📊",
-        "text": "The Website collects the following personal information to provide its services.\n\n### Upon Sign-up (Social Login)\n- **Required**: Email address, name (nickname), unique identifier (OAuth ID)\n- **Collection method**: Automatically collected through Google, Kakao, or Apple social login\n\n### Automatically Collected During Use\n- Browser type and version\n- Access times and usage records\n- IP address\n- Cookies and session information\n\n### User-Provided Information\n- Bookmark data (URL, title, memo, tags)\n- Category settings\n- Favorites and content management information\n\n### Clipboard Access\n- The Website reads clipboard URLs with the user's **explicit consent** to provide quick bookmark addition.\n- Clipboard data is not separately stored on the server."
+        "text": "The Website collects the following personal information to provide its services.\n\n### Upon Sign-up (Social Login)\n- **Required**: Email address, name (nickname), unique identifier (OAuth ID)\n- **Collection method**: Automatically collected through Google, Kakao, or Apple social login\n\n### Automatically Collected During Use\n- Browser type and version\n- Access times and usage records\n- IP address\n- Cookies and session information\n- Advertising identifiers (GAID, etc.)\n- Ad interaction data\n\n### Guest (Anonymous) Usage\n- When using the service as a guest, an anonymous session is created and bookmark data is stored in the cloud for service provision.\n\n### User-Provided Information\n- Bookmark data (URL, title, memo, tags)\n- Category settings\n- Favorites and content management information\n\n### Clipboard Access\n- The Website reads clipboard URLs with the user's **explicit consent** to provide quick bookmark addition.\n- Clipboard data is not separately stored on the server."
       },
       {
         "title": "Purpose of Processing",
@@ -375,7 +375,7 @@
       {
         "title": "Third-Party Provision and Processing Delegation",
         "icon": "🔒",
-        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Authentication, data storage, cloud sync | Account info, bookmark data |\n| **Groq** (US) | AI content classification | Content metadata (title, description, author) |\n| **Google Gemini** (US) | AI content classification (fallback) | Content metadata (title, description, author) |\n| **Vercel** (US) | Website hosting | Access logs, IP address |\n| **Google** | Social login | OAuth info |\n| **Kakao** | Social login | OAuth info |\n| **Apple** | Social login | OAuth info |\n\nInformation sent during AI classification consists of **content metadata** (title, description, author name) and does not include personally identifiable information."
+        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Authentication, data storage, cloud sync | Account info, bookmark data |\n| **Groq** (US) | AI content classification | Content metadata (title, description, author) |\n| **Google Gemini** (US) | AI content classification (fallback) | Content metadata (title, description, author) |\n| **Vercel** (US) | Website hosting | Access logs, IP address |\n| **Google** | Social login | OAuth info |\n| **Kakao** | Social login | OAuth info |\n| **Apple** | Social login | OAuth info |\n| **Google AdMob** (US) | Personalized ad serving | Advertising identifiers, device info, ad interaction data |\n| **Cloudflare** (US) | Thumbnail image storage and delivery (R2) | Content thumbnail images |\n\nInformation sent during AI classification consists of **content metadata** (title, description, author name) and does not include personally identifiable information."
       },
       {
         "title": "Your Rights",
@@ -400,7 +400,7 @@
       {
         "title": "Privacy Officer & Contact",
         "icon": "📞",
-        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 4, 2026**. Any changes will be announced through the website in advance."
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through the website in advance."
       }
     ]
   },
@@ -409,8 +409,8 @@
       "id": "tukmark-extension",
       "titleKo": "툭마크 (크롬 확장프로그램)",
       "titleEn": "tukmark (Chrome Extension)",
-      "dateKo": "2026년 4월 4일",
-      "dateEn": "April 4, 2026"
+      "dateKo": "2026년 4월 7일",
+      "dateEn": "April 7, 2026"
     },
     "itemsKo": [
       {
@@ -421,7 +421,7 @@
       {
         "title": "수집하는 개인정보",
         "icon": "📊",
-        "text": "확장프로그램은 서비스 제공을 위해 다음과 같은 정보를 수집합니다.\n\n### 인증 정보\n- **세션 토큰**: 툭마크 웹사이트(tukmark.com) 로그인 세션을 공유하여 인증합니다.\n- 확장프로그램 자체에서 로그인 정보를 직접 수집하지 않으며, 웹사이트의 세션을 참조합니다.\n\n### 저장 시 수집하는 정보\n- 현재 활성 탭의 **URL** 및 **페이지 제목**\n- 페이지 메타데이터 (OG 태그, JSON-LD, 작성자, 설명, 썸네일 URL)\n- 이용자가 직접 입력한 **메모** 및 **태그**\n\n### 자동 수집 정보\n- 확장프로그램 버전 정보\n- 브라우저 탭 정보 (저장 동작 시에만 접근)\n\n### 수집하지 않는 정보\n- 방문 기록 (browsing history)\n- 키보드 입력 내용 (keystrokes)\n- 저장 동작 외의 페이지 콘텐츠\n- 로그인 자격 증명 (비밀번호 등)"
+        "text": "확장프로그램은 서비스 제공을 위해 다음과 같은 정보를 수집합니다.\n\n### 인증 정보\n- **세션 토큰**: 툭마크 웹사이트(tukmark.com) 로그인 세션을 공유하여 인증합니다.\n- 확장프로그램 자체에서 로그인 정보를 직접 수집하지 않으며, 웹사이트의 세션을 참조합니다.\n\n### 저장 시 수집하는 정보\n- 현재 활성 탭의 **URL** 및 **페이지 제목**\n- 페이지 메타데이터 (OG 태그, JSON-LD, 작성자, 설명, 썸네일 URL)\n- 이용자가 직접 입력한 **메모** 및 **태그**\n\n### 자동 수집 정보\n- 확장프로그램 버전 정보\n- 브라우저 탭 정보 (저장 동작 시에만 접근)\n\n### 비회원(익명) 이용\n- 비회원 이용 시에도 서비스 제공을 위해 익명(anonymous) 세션이 생성되며, 북마크 데이터가 클라우드에 저장됩니다.\n\n### 수집하지 않는 정보\n- 방문 기록 (browsing history)\n- 키보드 입력 내용 (keystrokes)\n- 저장 동작 외의 페이지 콘텐츠\n- 로그인 자격 증명 (비밀번호 등)"
       },
       {
         "title": "확장프로그램 권한 안내",
@@ -441,7 +441,7 @@
       {
         "title": "개인정보의 제3자 제공 및 처리 위탁",
         "icon": "🔒",
-        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 데이터 저장, 카테고리 조회 | 북마크 데이터, 카테고리 정보 |\n| **tukmark.com API** | 메타데이터 추출, AI 분류 | 페이지 URL, 메타데이터 |\n\n확장프로그램은 **tukmark.com의 API 라우트를 프록시**로 사용하여 서버와 통신합니다. LLM API 키 등 민감 정보는 서버 사이드에서만 관리되며, 확장프로그램에 포함되지 않습니다.\n\nAI 분류 시 전달되는 정보는 **페이지의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
+        "text": "회사는 이용자의 개인정보를 제3자에게 판매하거나 대여하지 않습니다. 서비스 운영을 위해 다음과 같이 처리를 위탁합니다.\n\n| 수탁자 | 위탁 업무 | 전달 정보 |\n|--------|----------|----------|\n| **Supabase** (미국) | 데이터 저장, 카테고리 조회 | 북마크 데이터, 카테고리 정보 |\n| **tukmark.com API** | 메타데이터 추출, AI 분류 | 페이지 URL, 메타데이터 |\n| **Cloudflare** (미국) | 썸네일 이미지 저장 및 전송 (R2) | 콘텐츠 썸네일 이미지 |\n\n확장프로그램은 **tukmark.com의 API 라우트를 프록시**로 사용하여 서버와 통신합니다. LLM API 키 등 민감 정보는 서버 사이드에서만 관리되며, 확장프로그램에 포함되지 않습니다.\n\nAI 분류 시 전달되는 정보는 **페이지의 메타데이터**(제목, 설명, 작성자명)이며, 이용자의 개인식별정보는 포함되지 않습니다."
       },
       {
         "title": "정보주체의 권리와 행사 방법",
@@ -456,7 +456,7 @@
       {
         "title": "개인정보 보호책임자 및 연락처",
         "icon": "📞",
-        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 4일**부터 적용됩니다. 변경 사항이 있을 경우 크롬 웹 스토어 및 웹사이트를 통해 사전 안내하겠습니다."
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 크롬 웹 스토어 및 웹사이트를 통해 사전 안내하겠습니다."
       }
     ],
     "itemsEn": [
@@ -468,7 +468,7 @@
       {
         "title": "Information We Collect",
         "icon": "📊",
-        "text": "The Extension collects the following information to provide its services.\n\n### Authentication Information\n- **Session tokens**: Authentication is shared from the tukmark website (tukmark.com) login session.\n- The Extension does not directly collect login credentials; it references the website's session.\n\n### Information Collected When Saving\n- **URL** and **page title** of the currently active tab\n- Page metadata (OG tags, JSON-LD, author, description, thumbnail URL)\n- **Memos** and **tags** entered directly by the user\n\n### Automatically Collected Information\n- Extension version information\n- Browser tab information (accessed only during save actions)\n\n### Information NOT Collected\n- Browsing history\n- Keystroke data\n- Page content outside of save actions\n- Login credentials (passwords, etc.)"
+        "text": "The Extension collects the following information to provide its services.\n\n### Authentication Information\n- **Session tokens**: Authentication is shared from the tukmark website (tukmark.com) login session.\n- The Extension does not directly collect login credentials; it references the website's session.\n\n### Information Collected When Saving\n- **URL** and **page title** of the currently active tab\n- Page metadata (OG tags, JSON-LD, author, description, thumbnail URL)\n- **Memos** and **tags** entered directly by the user\n\n### Automatically Collected Information\n- Extension version information\n- Browser tab information (accessed only during save actions)\n\n### Guest (Anonymous) Usage\n- When using the service as a guest, an anonymous session is created and bookmark data is stored in the cloud for service provision.\n\n### Information NOT Collected\n- Browsing history\n- Keystroke data\n- Page content outside of save actions\n- Login credentials (passwords, etc.)"
       },
       {
         "title": "Extension Permissions",
@@ -488,7 +488,7 @@
       {
         "title": "Third-Party Provision and Processing Delegation",
         "icon": "🔒",
-        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Data storage, category retrieval | Bookmark data, category info |\n| **tukmark.com API** | Metadata extraction, AI classification | Page URL, metadata |\n\nThe Extension communicates with the server through **tukmark.com's API routes as a proxy**. Sensitive information such as LLM API keys is managed server-side only and is not included in the Extension.\n\nInformation sent during AI classification consists of **page metadata** (title, description, author name) and does not include personally identifiable information."
+        "text": "The Company does not sell or rent users' personal information to third parties. Processing is delegated as follows for service operation.\n\n| Processor | Purpose | Data Shared |\n|-----------|---------|-------------|\n| **Supabase** (US) | Data storage, category retrieval | Bookmark data, category info |\n| **tukmark.com API** | Metadata extraction, AI classification | Page URL, metadata |\n| **Cloudflare** (US) | Thumbnail image storage and delivery (R2) | Content thumbnail images |\n\nThe Extension communicates with the server through **tukmark.com's API routes as a proxy**. Sensitive information such as LLM API keys is managed server-side only and is not included in the Extension.\n\nInformation sent during AI classification consists of **page metadata** (title, description, author name) and does not include personally identifiable information."
       },
       {
         "title": "Your Rights",
@@ -503,7 +503,7 @@
       {
         "title": "Privacy Officer & Contact",
         "icon": "📞",
-        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 4, 2026**. Any changes will be announced through the Chrome Web Store and website in advance."
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through the Chrome Web Store and website in advance."
       }
     ]
   }
