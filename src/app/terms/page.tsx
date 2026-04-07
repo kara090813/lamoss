@@ -117,10 +117,7 @@ function TermsContent() {
                 key={`${selectedTerms}-${lang}-${idx}`}
                 className="glass rounded-xl p-5 sm:p-6"
               >
-                <div className="flex items-center gap-3 mb-3 sm:mb-4">
-                  <span className="text-xl sm:text-2xl">{item.icon}</span>
-                  <h3 className="text-base sm:text-lg font-bold">{item.title}</h3>
-                </div>
+                <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{item.title}</h3>
                 <div className="markdown-content">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
                     {item.text}

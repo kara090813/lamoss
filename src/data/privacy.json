@@ -31,7 +31,7 @@
       {
         "title": "연락처",
         "icon": "📞",
-        "text": "개인정보 처리방침에 대한 문의사항이 있으시면 아래로 연락해 주세요:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **24시간 내**에 답변드리겠습니다."
+        "text": "개인정보 처리방침에 대한 문의사항이 있으시면 아래로 연락해 주세요:\n\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **24시간 내**에 답변드리겠습니다."
       }
     ],
     "itemsEn": [
@@ -58,7 +58,7 @@
       {
         "title": "Contact",
         "icon": "📞",
-        "text": "If you have any questions about our privacy policy, please contact us at:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries within 24 hours."
+        "text": "If you have any questions about our privacy policy, please contact us at:\n\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries within 24 hours."
       }
     ]
   },
@@ -94,7 +94,7 @@
       {
         "title": "연락처",
         "icon": "📞",
-        "text": "개인정보 처리방침에 대한 문의사항이나 제안이 있으시면 아래로 연락해 주세요:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **최대한 신속히** 답변드리겠습니다."
+        "text": "개인정보 처리방침에 대한 문의사항이나 제안이 있으시면 아래로 연락해 주세요:\n\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **최대한 신속히** 답변드리겠습니다."
       }
     ],
     "itemsEn": [
@@ -121,7 +121,7 @@
       {
         "title": "Contact",
         "icon": "📞",
-        "text": "If you have any questions or suggestions about our privacy policy, please contact us:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries as quickly as possible."
+        "text": "If you have any questions or suggestions about our privacy policy, please contact us:\n\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries as quickly as possible."
       }
     ]
   },
@@ -157,7 +157,7 @@
       {
         "title": "연락처",
         "icon": "📞",
-        "text": "개인정보 처리방침에 대한 문의사항이나 제안이 있으시면 아래로 연락해 주세요:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **최대한 신속히** 답변드리겠습니다."
+        "text": "개인정보 처리방침에 대한 문의사항이나 제안이 있으시면 아래로 연락해 주세요:\n\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n- **개인정보 보호책임자**: 이상윤 (CEO)\n\n문의 사항은 **최대한 신속히** 답변드리겠습니다."
       }
     ],
     "itemsEn": [
@@ -184,7 +184,7 @@
       {
         "title": "Contact",
         "icon": "📞",
-        "text": "If you have any questions or suggestions about our privacy policy, please contact us:\n\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries as quickly as possible."
+        "text": "If you have any questions or suggestions about our privacy policy, please contact us:\n\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n- **Privacy Officer**: Sang-Yoon Lee (CEO)\n\nWe will respond to inquiries as quickly as possible."
       }
     ]
   },
@@ -225,7 +225,7 @@
       {
         "title": "정보주체의 권리와 행사 방법",
         "icon": "⚖️",
-        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 개인정보 수집·이용 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **앱 내**: 설정 > 계정 관리에서 로그아웃 또는 계정 삭제\n- **이메일**: kara090813@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다.\n\n### 데이터 관리\n- 로컬 데이터(SQLite)는 앱 삭제 시 자동 파기됩니다.\n- 클라우드 데이터는 계정 삭제 시 즉시 파기됩니다.\n- 비회원 이용 시에도 서비스 제공을 위해 익명(anonymous) 세션으로 데이터가 클라우드에 저장됩니다. 기기에서 앱을 삭제하면 로컬 데이터는 제거되지만, 클라우드의 익명 데이터는 일정 기간 보유 후 파기됩니다."
+        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 개인정보 수집·이용 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **앱 내**: 설정 > 계정 관리에서 로그아웃 또는 계정 삭제\n- **이메일**: lacunamoss@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다.\n\n### 데이터 관리\n- 로컬 데이터(SQLite)는 앱 삭제 시 자동 파기됩니다.\n- 클라우드 데이터는 계정 삭제 시 즉시 파기됩니다.\n- 비회원 이용 시에도 서비스 제공을 위해 익명(anonymous) 세션으로 데이터가 클라우드에 저장됩니다. 기기에서 앱을 삭제하면 로컬 데이터는 제거되지만, 클라우드의 익명 데이터는 일정 기간 보유 후 파기됩니다."
       },
       {
         "title": "개인정보의 파기",
@@ -240,7 +240,7 @@
       {
         "title": "개인정보 보호책임자 및 연락처",
         "icon": "📞",
-        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n기타 개인정보 침해에 대한 신고나 상담이 필요한 경우 아래 기관에 문의하실 수 있습니다.\n\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 앱 공지사항을 통해 사전 안내하겠습니다."
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n기타 개인정보 침해에 대한 신고나 상담이 필요한 경우 아래 기관에 문의하실 수 있습니다.\n\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 앱 공지사항을 통해 사전 안내하겠습니다."
       }
     ],
     "itemsEn": [
@@ -272,7 +272,7 @@
       {
         "title": "Your Rights",
         "icon": "⚖️",
-        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent for collection and use of personal information.\n\n### How to Exercise\n- **In-App**: Settings > Account Management — log out or delete account\n- **Email**: Send request to kara090813@gmail.com\n- Processing within **10 days** after identity verification.\n\n### Data Management\n- Local data (SQLite) is automatically destroyed when the app is uninstalled.\n- Cloud data is immediately destroyed upon account deletion.\n- When using as a guest, an anonymous session stores data in the cloud for service provision. Uninstalling the app removes local data, but anonymous cloud data is retained for a period before destruction."
+        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent for collection and use of personal information.\n\n### How to Exercise\n- **In-App**: Settings > Account Management — log out or delete account\n- **Email**: Send request to lacunamoss@gmail.com\n- Processing within **10 days** after identity verification.\n\n### Data Management\n- Local data (SQLite) is automatically destroyed when the app is uninstalled.\n- Cloud data is immediately destroyed upon account deletion.\n- When using as a guest, an anonymous session stores data in the cloud for service provision. Uninstalling the app removes local data, but anonymous cloud data is retained for a period before destruction."
       },
       {
         "title": "Data Destruction",
@@ -287,7 +287,7 @@
       {
         "title": "Privacy Officer & Contact",
         "icon": "📞",
-        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\nFor reports or consultations regarding personal information infringement, please contact:\n\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through app notifications in advance."
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\nFor reports or consultations regarding personal information infringement, please contact:\n\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through app notifications in advance."
       }
     ]
   },
@@ -328,7 +328,7 @@
       {
         "title": "정보주체의 권리와 행사 방법",
         "icon": "⚖️",
-        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 개인정보 수집·이용 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **웹사이트 내**: 설정 > 계정 관리에서 로그아웃 또는 계정 삭제\n- **이메일**: kara090813@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다."
+        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 개인정보 수집·이용 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **웹사이트 내**: 설정 > 계정 관리에서 로그아웃 또는 계정 삭제\n- **이메일**: lacunamoss@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다."
       },
       {
         "title": "개인정보의 파기",
@@ -348,7 +348,7 @@
       {
         "title": "개인정보 보호책임자 및 연락처",
         "icon": "📞",
-        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 웹사이트 공지를 통해 사전 안내하겠습니다."
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 웹사이트 공지를 통해 사전 안내하겠습니다."
       }
     ],
     "itemsEn": [
@@ -380,7 +380,7 @@
       {
         "title": "Your Rights",
         "icon": "⚖️",
-        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent for collection and use of personal information.\n\n### How to Exercise\n- **On Website**: Settings > Account Management — log out or delete account\n- **Email**: Send request to kara090813@gmail.com\n- Processing within **10 days** after identity verification."
+        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent for collection and use of personal information.\n\n### How to Exercise\n- **On Website**: Settings > Account Management — log out or delete account\n- **Email**: Send request to lacunamoss@gmail.com\n- Processing within **10 days** after identity verification."
       },
       {
         "title": "Data Destruction",
@@ -400,7 +400,7 @@
       {
         "title": "Privacy Officer & Contact",
         "icon": "📞",
-        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through the website in advance."
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through the website in advance."
       }
     ]
   },
@@ -446,7 +446,7 @@
       {
         "title": "정보주체의 권리와 행사 방법",
         "icon": "⚖️",
-        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 확장프로그램을 제거하여 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **확장프로그램 내**: 설정에서 로그아웃\n- **확장프로그램 제거**: 크롬 브라우저에서 확장프로그램 제거 시 모든 로컬 데이터 삭제\n- **계정 삭제**: 툭마크 웹사이트 또는 앱에서 계정 삭제\n- **이메일**: kara090813@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다."
+        "text": "이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.\n\n### 이용자의 권리\n- **열람권**: 처리되고 있는 개인정보의 열람을 요구할 수 있습니다.\n- **정정·삭제권**: 부정확한 개인정보의 정정 또는 삭제를 요구할 수 있습니다.\n- **처리정지권**: 개인정보 처리의 정지를 요구할 수 있습니다.\n- **동의 철회권**: 확장프로그램을 제거하여 동의를 철회할 수 있습니다.\n\n### 행사 방법\n- **확장프로그램 내**: 설정에서 로그아웃\n- **확장프로그램 제거**: 크롬 브라우저에서 확장프로그램 제거 시 모든 로컬 데이터 삭제\n- **계정 삭제**: 툭마크 웹사이트 또는 앱에서 계정 삭제\n- **이메일**: lacunamoss@gmail.com 으로 요청\n- 본인 확인 후 **10일 이내**에 처리합니다."
       },
       {
         "title": "개인정보의 안전성 확보 조치",
@@ -456,7 +456,7 @@
       {
         "title": "개인정보 보호책임자 및 연락처",
         "icon": "📞",
-        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 크롬 웹 스토어 및 웹사이트를 통해 사전 안내하겠습니다."
+        "text": "개인정보 처리에 관한 업무를 총괄해서 책임지고, 이용자의 불만 처리 및 피해 구제를 위해 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n### 개인정보 보호책임자\n- **성명**: 이상윤\n- **직위**: 대표\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n\n### 권익침해 구제 기관\n- 개인정보분쟁조정위원회: (국번없이) 1833-6972\n- 개인정보침해신고센터: (국번없이) 118\n- 대검찰청 사이버수사과: (국번없이) 1301\n- 경찰청 사이버안전국: (국번없이) 182\n\n### 방침 변경\n이 개인정보 처리방침은 **2026년 4월 7일**부터 적용됩니다. 변경 사항이 있을 경우 크롬 웹 스토어 및 웹사이트를 통해 사전 안내하겠습니다."
       }
     ],
     "itemsEn": [
@@ -493,7 +493,7 @@
       {
         "title": "Your Rights",
         "icon": "⚖️",
-        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent by removing the extension.\n\n### How to Exercise\n- **In Extension**: Log out from settings\n- **Remove Extension**: Removing the extension from Chrome deletes all local data\n- **Delete Account**: Delete account through the tukmark website or app\n- **Email**: Send request to kara090813@gmail.com\n- Processing within **10 days** after identity verification."
+        "text": "Users may exercise the following rights at any time.\n\n### User Rights\n- **Right to access**: Request to view your processed personal information.\n- **Right to correction/deletion**: Request correction or deletion of inaccurate personal information.\n- **Right to suspend processing**: Request to suspend processing of personal information.\n- **Right to withdraw consent**: Withdraw consent by removing the extension.\n\n### How to Exercise\n- **In Extension**: Log out from settings\n- **Remove Extension**: Removing the extension from Chrome deletes all local data\n- **Delete Account**: Delete account through the tukmark website or app\n- **Email**: Send request to lacunamoss@gmail.com\n- Processing within **10 days** after identity verification."
       },
       {
         "title": "Security Measures",
@@ -503,7 +503,7 @@
       {
         "title": "Privacy Officer & Contact",
         "icon": "📞",
-        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: kara090813@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through the Chrome Web Store and website in advance."
+        "text": "The Company has designated a Privacy Officer to oversee personal information processing and handle user complaints and remedies.\n\n### Privacy Officer\n- **Name**: Sang-Yoon Lee\n- **Position**: CEO\n- **Email**: lacunamoss@gmail.com\n- **Website**: https://lamoss.net\n\n### Remedial Organizations\n- Personal Information Dispute Mediation Committee: 1833-6972\n- Personal Information Infringement Report Center: 118\n- Supreme Prosecutors' Office Cyber Investigation Division: 1301\n- National Police Agency Cyber Safety Bureau: 182\n\n### Policy Changes\nThis Privacy Policy is effective from **April 7, 2026**. Any changes will be announced through the Chrome Web Store and website in advance."
       }
     ]
   }

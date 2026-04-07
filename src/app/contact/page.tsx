@@ -83,7 +83,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-xs sm:text-sm text-muted">이메일</p>
-                        <p className="text-sm font-medium break-all">kara090813@gmail.com</p>
+                        <p className="text-sm font-medium break-all">lacunamoss@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
