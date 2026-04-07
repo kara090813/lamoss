@@ -47,10 +47,10 @@ function PrivacyContent() {
         <div className="absolute inset-0 grid-pattern" />
         <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 text-center">
           <h1 className="page-enter text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4">
-            <span className="gradient-text">개인정보 보호</span>
+            <span className="gradient-text">정책 및 약관</span>
           </h1>
           <p className="page-enter page-enter-delay-1 text-base sm:text-lg text-muted">
-            LaMoss Tech의 개인정보 처리방침
+            LaMoss Tech의 개인정보 처리방침 및 서비스 이용약관
           </p>
         </div>
       </section>
