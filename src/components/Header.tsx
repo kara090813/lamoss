@@ -10,6 +10,7 @@ const navItems = [
   { href: "/about", label: "회사소개" },
   { href: "/projects", label: "프로젝트" },
   { href: "/privacy", label: "개인정보 보호" },
+  { href: "/terms", label: "이용약관" },
   { href: "/contact", label: "고객센터" },
 ];
 
